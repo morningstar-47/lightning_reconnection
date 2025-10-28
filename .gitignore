@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Generated data and output
+data/*
+!data/.gitkeep
+output/*
+!output/.gitkeep
+
 # Distribution / packaging
 .Python
 build/
