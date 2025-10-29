@@ -70,8 +70,9 @@ Merci de compléter/valider les éléments ci-dessous pour fiabiliser la planifi
 - Longueurs et coordonnées plausibles (contrôle des outliers).
 
 ## Collaborateurs
-| Nom | Rôle | Responsabilités | Contact |
-| --- | --- | --- | --- |
-| Ouazar Djamel | Chef de projet | Pilotage, arbitrages, coordination | email@exemple.com |
-| Mopeno-BIa Emmanuel | Data analyst | Consolidation, QC données, métriques | email@exemple.com |
-| Hamouma Amine | Ing. réseau | Spécifications techniques, contraintes terrain | email@exemple.com |
+| Nom | | Contact |
+| --- | --- |
+| OUAZAR Djamel | https://github.com/HamoumaAmine |
+| Mopeno-BIa Emmanuel | https://github.com/morningstar-47 |
+| HAMOUMA Amine | https://github.com/HamoumaAmine |
+| ELMORTADA Hamza | https://github.com/weldhammadi |
