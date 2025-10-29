@@ -72,7 +72,7 @@ Merci de compléter/valider les éléments ci-dessous pour fiabiliser la planifi
 ## Collaborateurs
 | Nom | Contact |
 | --- | --- |
-| OUAZAR Djamel | https://github.com/HamoumaAmine |
+| OUAZAR Djamel | https://github.com/legb78 |
 | Mopeno-BIa Emmanuel | https://github.com/morningstar-47 |
 | HAMOUMA Amine | https://github.com/HamoumaAmine |
 | ELMORTADA Hamza | https://github.com/weldhammadi |
