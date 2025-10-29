@@ -72,7 +72,6 @@ Merci de compléter/valider les éléments ci-dessous pour fiabiliser la planifi
 ## Collaborateurs
 | Nom | Rôle | Responsabilités | Contact |
 | --- | --- | --- | --- |
-| À compléter | Chef de projet | Pilotage, arbitrages, coordination | email@exemple.com |
-| À compléter | Data analyst | Consolidation, QC données, métriques | email@exemple.com |
-| À compléter | Ing. réseau | Spécifications techniques, contraintes terrain | email@exemple.com |
-| À compléter | Planificateur | Ordonnancement, ressources, planning | email@exemple.com |
+| Ouazar Djamel | Chef de projet | Pilotage, arbitrages, coordination | email@exemple.com |
+| Mopeno-BIa Emmanuel | Data analyst | Consolidation, QC données, métriques | email@exemple.com |
+| Hamouma Amine | Ing. réseau | Spécifications techniques, contraintes terrain | email@exemple.com |
