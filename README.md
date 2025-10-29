@@ -70,7 +70,7 @@ Merci de compléter/valider les éléments ci-dessous pour fiabiliser la planifi
 - Longueurs et coordonnées plausibles (contrôle des outliers).
 
 ## Collaborateurs
-| Nom | | Contact |
+| Nom | Contact |
 | --- | --- |
 | OUAZAR Djamel | https://github.com/HamoumaAmine |
 | Mopeno-BIa Emmanuel | https://github.com/morningstar-47 |
