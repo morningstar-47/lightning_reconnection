@@ -1,0 +1,31 @@
+1.batiment.py
+
+Classe Batiment : représente un bâtiment avec id_batiment, nb_maisons et les infrastructures qui le desservent.
+
+Méthodes : ajouter_infrastructure(), cout_total(), score_priorite().
+
+2.infrastructure.py
+
+Classe Infrastructure : représente une ligne électrique avec id_infra, infra_type, longueur et les bâtiments desservis.
+
+Méthodes : ajouter_batiment(), cout().
+
+3.graphe_raccordement.py
+
+Classe GrapheRaccordement : graphe NetworkX du réseau (bâtiments + infrastructures).
+
+Méthodes : ajouter_arrete(), arbre_cout_minimal(), nombre_noeuds(), nombre_aretes().
+
+4.raccordement.py
+
+Classe Raccordement : coordonne le processus : nettoyage CSV, création d’objets, construction du graphe, calcul des scores de priorité.
+
+Résultats : batiments_priorites, df_scores.
+
+5.main.py
+
+Script principal : instancie Raccordement, calcule les priorités, affiche le top 10 et sauvegarde le CSV.
+
+6.donnees_infrastructures.csv
+
+Données d’entrée : id_batiment, nb_maisons, infra_id, infra_type (Intacte / À remplacer), longueur.
