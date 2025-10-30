@@ -107,3 +107,5 @@ def planifier_phases(batiments):
         phase_num += 1
         
     return phases
+    ####################################################################################################
+    priorite = {"hôpital": 1, "ecole": 2, "habitation": 3}
