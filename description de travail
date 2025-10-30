@@ -1,0 +1,28 @@
+Analyse géospatiale et identification des infrastructures à réparer
+
+Dans le cadre du projet, j’ai travaillé sur la visualisation et l’analyse des données géospatiales liées à l’infrastructure du village.
+L’objectif était d’identifier les parties du réseau nécessitant une intervention prioritaire en vue d’un plan de réparation optimisé.
+
+1. Visualisation et classification dans QGIS
+
+J’ai d’abord importé l’ensemble des données géospatiales dans QGIS afin de les visualiser et de mieux comprendre la répartition des infrastructures sur le terrain.
+Grâce à cette étape, j’ai pu classer les éléments du réseau en deux catégories :
+
+Infrastructures intactes
+
+Infrastructures à réparer
+
+Cette classification a permis d’avoir une vue d’ensemble claire de l’état du réseau et de faciliter les étapes d’analyse suivantes.
+
+2. Analyse des bâtiments et détection des anomalies de signal
+
+En utilisant les données associées aux bâtiments, j’ai pu déterminer quels bâtiments nécessitent des réparations.
+Au cours de cette analyse, j’ai également découvert une anomalie dans la topologie du réseau : pour certains bâtiments, le signal emprunte la même infrastructure à l’aller et au retour.
+Ce comportement est inhabituel et pourrait indiquer une erreur de conception ou de routage dans le réseau.
+
+3. Détection de cas spéciaux
+
+Pour ces cas particuliers où le signal passe deux fois par la même infrastructure, il est important de ne pas compter cette infrastructure deux fois dans le calcul de la difficulté.
+En effet, lorsqu’une infrastructure est réparée, elle l’est pour les deux sens de passage du signal.
+Si on la comptait deux fois, cela rendrait artificiellement le bâtiment plus difficile à réparer que les autres, ce qui fausserait la priorisation des interventions.
+Cette correction permet donc d’obtenir une évaluation plus juste et réaliste de la difficulté de réparation pour chaque bâtiment.
