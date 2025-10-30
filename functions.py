@@ -1,3 +1,12 @@
+Notes:
+- 4 employés par infra
+- 1 employé 8h 250$
+- max des infras pas la somme
+- 3 ou 4 phases
+- budget: 40 35 25 ou 40 20 20 20
+- générateur hôpital, que 20h d'autonomie restantes
+
+############################################################################################################
 class Infrastructure:
     def __init__(self, infra_id, type_infra, infra_type, longueur, nb_maisons):
         self.infra_id = infra_id
