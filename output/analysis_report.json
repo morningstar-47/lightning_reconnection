@@ -1,0 +1,547 @@
+{
+  "buildings_stats": {
+    "count": 50,
+    "crs": "EPSG:3857",
+    "bounds": [
+      71.88772120149252,
+      52.754817252269255,
+      177.83647420876503,
+      216.4448512901413
+    ],
+    "geometry_types": {
+      "Point": 50
+    },
+    "columns": [
+      "building_i",
+      "inhabitant",
+      "building_t",
+      "connected",
+      "priority",
+      "geometry"
+    ],
+    "numeric_stats": {
+      "building_i": {
+        "count": 50.0,
+        "mean": 25.5,
+        "std": 14.577379737113251,
+        "min": 1.0,
+        "25%": 13.25,
+        "50%": 25.5,
+        "75%": 37.75,
+        "max": 50.0
+      },
+      "inhabitant": {
+        "count": 50.0,
+        "mean": 92.38,
+        "std": 126.13661042614044,
+        "min": 1.0,
+        "25%": 26.25,
+        "50%": 49.5,
+        "75%": 78.75,
+        "max": 499.0
+      }
+    },
+    "total_area": 0.0,
+    "mean_area": 0.0
+  },
+  "network_stats": {
+    "count": 52,
+    "crs": "EPSG:3857",
+    "bounds": [
+      31.18185553330687,
+      29.98178049525616,
+      214.0191728513881,
+      261.9000134717345
+    ],
+    "geometry_types": {
+      "LineString": 52
+    },
+    "columns": [
+      "segment_id",
+      "status",
+      "capacity",
+      "geometry"
+    ],
+    "numeric_stats": {
+      "segment_id": {
+        "count": 52.0,
+        "mean": 26.5,
+        "std": 15.154757228892407,
+        "min": 1.0,
+        "25%": 13.75,
+        "50%": 26.5,
+        "75%": 39.25,
+        "max": 52.0
+      },
+      "capacity": {
+        "count": 52.0,
+        "mean": 214.34615384615384,
+        "std": 111.39927915692161,
+        "min": 57.0,
+        "25%": 121.25,
+        "50%": 179.5,
+        "75%": 318.75,
+        "max": 445.0
+      }
+    },
+    "total_length": 1667.34936725378,
+    "mean_length": 32.064410908726536,
+    "status_counts": {
+      "active": 45,
+      "damaged": 7
+    }
+  },
+  "csv_buildings_stats": {
+    "rows": 50,
+    "columns": 5,
+    "column_names": [
+      "building_id",
+      "inhabitants",
+      "building_type",
+      "connected",
+      "priority"
+    ],
+    "dtypes": {
+      "building_id": "int64",
+      "inhabitants": "int64",
+      "building_type": "object",
+      "connected": "bool",
+      "priority": "object"
+    },
+    "missing_values": {
+      "building_id": 0,
+      "inhabitants": 0,
+      "building_type": 0,
+      "connected": 0,
+      "priority": 0
+    },
+    "memory_usage": 6615,
+    "numeric_summary": {
+      "building_id": {
+        "count": 50.0,
+        "mean": 25.5,
+        "std": 14.577379737113251,
+        "min": 1.0,
+        "25%": 13.25,
+        "50%": 25.5,
+        "75%": 37.75,
+        "max": 50.0
+      },
+      "inhabitants": {
+        "count": 50.0,
+        "mean": 92.38,
+        "std": 126.13661042614044,
+        "min": 1.0,
+        "25%": 26.25,
+        "50%": 49.5,
+        "75%": 78.75,
+        "max": 499.0
+      }
+    },
+    "categorical_summary": {
+      "building_type": {
+        "residential": 33,
+        "school": 8,
+        "commercial": 8,
+        "hospital": 1
+      },
+      "priority": {
+        "high": 24,
+        "medium": 20,
+        "low": 6
+      }
+    },
+    "total_inhabitants": 4619,
+    "mean_inhabitants": 92.38,
+    "median_inhabitants": 49.5,
+    "building_types": {
+      "residential": 33,
+      "school": 8,
+      "commercial": 8,
+      "hospital": 1
+    },
+    "connection_status": {
+      "false": 36,
+      "true": 14
+    },
+    "disconnected_count": 36,
+    "disconnected_percentage": 72.0,
+    "priority_distribution": {
+      "high": 24,
+      "medium": 20,
+      "low": 6
+    },
+    "high_priority_count": 24
+  },
+  "csv_costs_stats": {
+    "rows": 50,
+    "columns": 3,
+    "column_names": [
+      "building_id",
+      "cost",
+      "distance"
+    ],
+    "dtypes": {
+      "building_id": "int64",
+      "cost": "float64",
+      "distance": "float64"
+    },
+    "missing_values": {
+      "building_id": 0,
+      "cost": 0,
+      "distance": 0
+    },
+    "memory_usage": 1332,
+    "numeric_summary": {
+      "building_id": {
+        "count": 50.0,
+        "mean": 25.5,
+        "std": 14.577379737113251,
+        "min": 1.0,
+        "25%": 13.25,
+        "50%": 25.5,
+        "75%": 37.75,
+        "max": 50.0
+      },
+      "cost": {
+        "count": 50.0,
+        "mean": 430.9068,
+        "std": 220.91303948395804,
+        "min": 107.86,
+        "25%": 259.22249999999997,
+        "50%": 380.11,
+        "75%": 623.5,
+        "max": 941.04
+      },
+      "distance": {
+        "count": 50.0,
+        "mean": 5.938,
+        "std": 3.876396390926996,
+        "min": 0.16,
+        "25%": 3.005,
+        "50%": 5.6,
+        "75%": 8.425,
+        "max": 15.67
+      }
+    },
+    "total_cost": 21545.34,
+    "mean_cost": 430.9068,
+    "median_cost": 380.11,
+    "min_cost": 107.86,
+    "max_cost": 941.04,
+    "total_distance": 296.9,
+    "mean_distance": 5.938
+  },
+  "graph_stats": {
+    "nodes": 108,
+    "edges": 105,
+    "is_connected": false,
+    "number_of_components": 3,
+    "node_types": {
+      "network": 55,
+      "substation": 3,
+      "building": 50
+    },
+    "avg_degree": 1.9444444444444444,
+    "max_degree": 11,
+    "min_degree": 1,
+    "total_network_length": 2200.736840331497
+  },
+  "critical_nodes": [
+    {
+      "node": "(100.0, 200.0)",
+      "centrality": 0.1308411214953271
+    },
+    {
+      "node": "(120.0, 80.0)",
+      "centrality": 0.10756480338564627
+    },
+    {
+      "node": "(150.0, 150.0)",
+      "centrality": 0.057838123787691764
+    },
+    {
+      "node": "(141.23620356542088, 200.0)",
+      "centrality": 0.03967554223241051
+    },
+    {
+      "node": "(138.79338081194575, 161.20661918805422)",
+      "centrality": 0.0305060835831423
+    },
+    {
+      "node": "(148.6923183100687, 108.69231831006873)",
+      "centrality": 0.026450361488273674
+    },
+    {
+      "node": "(78.05730587013714, 178.05730587013716)",
+      "centrality": 0.02578910245106683
+    },
+    {
+      "node": "(93.70492144226897, 53.70492144226898)",
+      "centrality": 0.023144066302239464
+    },
+    {
+      "node": "(146.35019147022692, 53.64980852977306)",
+      "centrality": 0.022967730558984305
+    },
+    {
+      "node": "(68.04845221044161, 200.0)",
+      "centrality": 0.020807617704108623
+    }
+  ],
+  "prioritization_report": {
+    "total_buildings": 50,
+    "top_10_buildings": [
+      {
+        "building_id": 35,
+        "inhabitants": 448,
+        "building_type": "school",
+        "connected": false,
+        "priority": "high",
+        "cost": 166.22,
+        "distance": 0.22,
+        "population_score": 0.8975903614457831,
+        "cost_score": 0.9299551117405602,
+        "urgency_score": 1.0,
+        "distance_score": 0.9961315280464217,
+        "composite_score": 0.9376358309051237,
+        "priority_rank": 1,
+        "cumulative_inhabitants": 448,
+        "cumulative_inhabitants_pct": 9.699069062567656,
+        "cumulative_cost": 166.22,
+        "cumulative_cost_pct": 0.7714893336563732,
+        "buildings_reconnected": 1,
+        "buildings_reconnected_pct": 2.0
+      },
+      {
+        "building_id": 4,
+        "inhabitants": 397,
+        "building_type": "school",
+        "connected": false,
+        "priority": "high",
+        "cost": 206.91,
+        "distance": 0.76,
+        "population_score": 0.7951807228915663,
+        "cost_score": 0.8811181257351353,
+        "urgency_score": 1.0,
+        "distance_score": 0.9613152804642167,
+        "composite_score": 0.878539254923589,
+        "priority_rank": 2,
+        "cumulative_inhabitants": 845,
+        "cumulative_inhabitants_pct": 18.294003030959082,
+        "cumulative_cost": 373.13,
+        "cumulative_cost_pct": 1.7318362114499009,
+        "buildings_reconnected": 2,
+        "buildings_reconnected_pct": 4.0
+      },
+      {
+        "building_id": 29,
+        "inhabitants": 464,
+        "building_type": "school",
+        "connected": false,
+        "priority": "high",
+        "cost": 600.01,
+        "distance": 6.0,
+        "population_score": 0.929718875502008,
+        "cost_score": 0.40931131328164383,
+        "urgency_score": 1.0,
+        "distance_score": 0.6234687298517085,
+        "composite_score": 0.7570278171704673,
+        "priority_rank": 3,
+        "cumulative_inhabitants": 1309,
+        "cumulative_inhabitants_pct": 28.339467417189866,
+        "cumulative_cost": 973.14,
+        "cumulative_cost_pct": 4.516707557179418,
+        "buildings_reconnected": 3,
+        "buildings_reconnected_pct": 6.0
+      },
+      {
+        "building_id": 25,
+        "inhabitants": 499,
+        "building_type": "school",
+        "connected": false,
+        "priority": "high",
+        "cost": 754.54,
+        "distance": 8.06,
+        "population_score": 1.0,
+        "cost_score": 0.22384118677836728,
+        "urgency_score": 1.0,
+        "distance_score": 0.4906511927788523,
+        "composite_score": 0.7162174753113956,
+        "priority_rank": 4,
+        "cumulative_inhabitants": 1808,
+        "cumulative_inhabitants_pct": 39.142671573933754,
+        "cumulative_cost": 1727.6799999999998,
+        "cumulative_cost_pct": 8.018810564140551,
+        "buildings_reconnected": 4,
+        "buildings_reconnected_pct": 8.0
+      },
+      {
+        "building_id": 17,
+        "inhabitants": 198,
+        "building_type": "school",
+        "connected": true,
+        "priority": "high",
+        "cost": 277.04,
+        "distance": 1.69,
+        "population_score": 0.39558232931726905,
+        "cost_score": 0.7969466381814254,
+        "urgency_score": 1.0,
+        "distance_score": 0.9013539651837524,
+        "composite_score": 0.6874523196997107,
+        "priority_rank": 5,
+        "cumulative_inhabitants": 2006,
+        "cumulative_inhabitants_pct": 43.42931370426499,
+        "cumulative_cost": 2004.7199999999998,
+        "cumulative_cost_pct": 9.304657062733753,
+        "buildings_reconnected": 5,
+        "buildings_reconnected_pct": 10.0
+      },
+      {
+        "building_id": 13,
+        "inhabitants": 337,
+        "building_type": "school",
+        "connected": false,
+        "priority": "high",
+        "cost": 653.31,
+        "distance": 6.71,
+        "population_score": 0.6746987951807228,
+        "cost_score": 0.34533954247581555,
+        "urgency_score": 1.0,
+        "distance_score": 0.577691811734365,
+        "composite_score": 0.6312505619884705,
+        "priority_rank": 6,
+        "cumulative_inhabitants": 2343,
+        "cumulative_inhabitants_pct": 50.72526520891968,
+        "cumulative_cost": 2658.0299999999997,
+        "cumulative_cost_pct": 12.336913689920884,
+        "buildings_reconnected": 6,
+        "buildings_reconnected_pct": 12.0
+      },
+      {
+        "building_id": 48,
+        "inhabitants": 36,
+        "building_type": "residential",
+        "connected": false,
+        "priority": "high",
+        "cost": 107.86,
+        "distance": 0.16,
+        "population_score": 0.07028112449799197,
+        "cost_score": 1.0,
+        "urgency_score": 0.75,
+        "distance_score": 1.0,
+        "composite_score": 0.5781124497991968,
+        "priority_rank": 7,
+        "cumulative_inhabitants": 2379,
+        "cumulative_inhabitants_pct": 51.50465468716172,
+        "cumulative_cost": 2765.89,
+        "cumulative_cost_pct": 12.837532385193274,
+        "buildings_reconnected": 7,
+        "buildings_reconnected_pct": 14.000000000000002
+      },
+      {
+        "building_id": 5,
+        "inhabitants": 60,
+        "building_type": "residential",
+        "connected": false,
+        "priority": "high",
+        "cost": 159.33,
+        "distance": 1.19,
+        "population_score": 0.11847389558232932,
+        "cost_score": 0.9382246333325331,
+        "urgency_score": 0.75,
+        "distance_score": 0.9335912314635719,
+        "composite_score": 0.572216071379049,
+        "priority_rank": 8,
+        "cumulative_inhabitants": 2439,
+        "cumulative_inhabitants_pct": 52.80363715089847,
+        "cumulative_cost": 2925.22,
+        "cumulative_cost_pct": 13.577042645880736,
+        "buildings_reconnected": 8,
+        "buildings_reconnected_pct": 16.0
+      },
+      {
+        "building_id": 18,
+        "inhabitants": 280,
+        "building_type": "school",
+        "connected": false,
+        "priority": "high",
+        "cost": 696.91,
+        "distance": 7.29,
+        "population_score": 0.5602409638554217,
+        "cost_score": 0.29300991382414365,
+        "urgency_score": 1.0,
+        "distance_score": 0.5402965828497743,
+        "composite_score": 0.5660290179743893,
+        "priority_rank": 9,
+        "cumulative_inhabitants": 2719,
+        "cumulative_inhabitants_pct": 58.86555531500325,
+        "cumulative_cost": 3622.1299999999997,
+        "cumulative_cost_pct": 16.811663218125126,
+        "buildings_reconnected": 9,
+        "buildings_reconnected_pct": 18.0
+      },
+      {
+        "building_id": 21,
+        "inhabitants": 32,
+        "building_type": "residential",
+        "connected": false,
+        "priority": "high",
+        "cost": 129.19,
+        "distance": 0.58,
+        "population_score": 0.06224899598393574,
+        "cost_score": 0.9743992894692624,
+        "urgency_score": 0.75,
+        "distance_score": 0.9729206963249516,
+        "composite_score": 0.5645114548668483,
+        "priority_rank": 10,
+        "cumulative_inhabitants": 2751,
+        "cumulative_inhabitants_pct": 59.558345962329504,
+        "cumulative_cost": 3751.3199999999997,
+        "cumulative_cost_pct": 17.41128243972943,
+        "buildings_reconnected": 10,
+        "buildings_reconnected_pct": 20.0
+      }
+    ],
+    "population_score_stats": {
+      "mean": 0.18349397590361444,
+      "median": 0.09738955823293173,
+      "std": 0.2532863663175511,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "cost_score_stats": {
+      "mean": 0.6122724981396577,
+      "median": 0.6732398761372093,
+      "std": 0.2651444339565977,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "urgency_score_stats": {
+      "mean": 0.667,
+      "median": 0.55,
+      "std": 0.20091880784769447,
+      "min": 0.35,
+      "max": 1.0
+    },
+    "distance_score_stats": {
+      "mean": 0.6274661508704061,
+      "median": 0.6492585428755642,
+      "std": 0.24992884532088946,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "composite_score_stats": {
+      "mean": 0.45322595489038375,
+      "median": 0.447905040867619,
+      "std": 0.16049369395264743,
+      "min": 0.11322257464048081,
+      "max": 0.9376358309051237
+    },
+    "top_20_percent": {
+      "buildings": 10,
+      "inhabitants_covered": 2751,
+      "total_cost": 3751.3199999999997
+    }
+  }
+}

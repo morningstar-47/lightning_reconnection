@@ -1,0 +1,38 @@
+============================================================
+RÉSUMÉ DE L'ANALYSE DU RACCORDEMENT ÉLECTRIQUE
+============================================================
+
+BÂTIMENTS
+----------------------------------------
+Nombre total: 50
+
+RÉSEAU ÉLECTRIQUE
+----------------------------------------
+Nombre de segments: 52
+Longueur totale: 1667.35 unités
+Statut du réseau:
+  - active: 45
+  - damaged: 7
+
+MODÈLE DE GRAPHE
+----------------------------------------
+Nœuds: 108
+Arêtes: 105
+Réseau connecté: Non
+Types de nœuds:
+  - network: 55
+  - substation: 3
+  - building: 50
+
+PRIORISATION
+----------------------------------------
+Bâtiments analysés: 50
+
+Top 20% des bâtiments prioritaires:
+  - Nombre: 10
+  - Habitants couverts: 2751
+  - Coût total: 3751.32
+
+============================================================
+Fichiers de sortie générés dans: output
+============================================================

@@ -1,0 +1,1625 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-10-30">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="9" title="length" type="double" />
+      <attribute id="10" title="segment_id" type="long" />
+      <attribute id="11" title="status" type="string" />
+      <attribute id="12" title="capacity" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="x" type="double" />
+      <attribute id="1" title="y" type="double" />
+      <attribute id="2" title="type" type="string" />
+      <attribute id="3" title="substation_id" type="long" />
+      <attribute id="4" title="capacity" type="long" />
+      <attribute id="5" title="name" type="string" />
+      <attribute id="6" title="building_id" type="long" />
+      <attribute id="7" title="connected" type="boolean" />
+      <attribute id="8" title="priority" type="string" />
+    </attributes>
+    <nodes>
+      <node id="(100.0, 200.0)" label="(100.0, 200.0)">
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="200.0" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(141.23620356542088, 200.0)" label="(141.23620356542088, 200.0)">
+        <attvalues>
+          <attvalue for="0" value="141.23620356542088" />
+          <attvalue for="1" value="200.0" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(161.97989560770364, 188.02362381540135)" label="(161.97989560770364, 188.02362381540135)">
+        <attvalues>
+          <attvalue for="0" value="161.97989560770364" />
+          <attvalue for="1" value="188.02362381540135" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(160.1924027287219, 210.94436668974402)" label="(160.1924027287219, 210.94436668974402)">
+        <attvalues>
+          <attvalue for="0" value="160.1924027287219" />
+          <attvalue for="1" value="210.94436668974402" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(136.23369107555112, 236.23369107555112)" label="(136.23369107555112, 236.23369107555112)">
+        <attvalues>
+          <attvalue for="0" value="136.23369107555112" />
+          <attvalue for="1" value="236.23369107555112" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(164.3211629844654, 243.75970649097655)" label="(164.3211629844654, 243.75970649097655)">
+        <attvalues>
+          <attvalue for="0" value="164.3211629844654" />
+          <attvalue for="1" value="243.75970649097655" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(142.51321637244357, 259.6691985309677)" label="(142.51321637244357, 259.6691985309677)">
+        <attvalues>
+          <attvalue for="0" value="142.51321637244357" />
+          <attvalue for="1" value="259.6691985309677" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(100.0, 238.73687420594126)" label="(100.0, 238.73687420594126)">
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="238.73687420594126" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(58.13032264668496, 241.86967735331504)" label="(58.13032264668496, 241.86967735331504)">
+        <attvalues>
+          <attvalue for="0" value="58.13032264668496" />
+          <attvalue for="1" value="241.86967735331504" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(52.76321025963051, 261.9000134717345)" label="(52.76321025963051, 261.9000134717345)">
+        <attvalues>
+          <attvalue for="0" value="52.76321025963051" />
+          <attvalue for="1" value="261.9000134717345" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(31.18185553330687, 249.09049735360136)" label="(31.18185553330687, 249.09049735360136)">
+        <attvalues>
+          <attvalue for="0" value="31.18185553330687" />
+          <attvalue for="1" value="249.09049735360136" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(68.04845221044161, 200.0)" label="(68.04845221044161, 200.0)">
+        <attvalues>
+          <attvalue for="0" value="68.04845221044161" />
+          <attvalue for="1" value="200.0" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(50.05136392011528, 210.39062376904937)" label="(50.05136392011528, 210.39062376904937)">
+        <attvalues>
+          <attvalue for="0" value="50.05136392011528" />
+          <attvalue for="1" value="210.39062376904937" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(46.16962340765744, 187.36825230115883)" label="(46.16962340765744, 187.36825230115883)">
+        <attvalues>
+          <attvalue for="0" value="46.16962340765744" />
+          <attvalue for="1" value="187.36825230115883" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(78.05730587013714, 178.05730587013716)" label="(78.05730587013714, 178.05730587013716)">
+        <attvalues>
+          <attvalue for="0" value="78.05730587013714" />
+          <attvalue for="1" value="178.05730587013716" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(59.052071794774335, 172.96486874767925)" label="(59.052071794774335, 172.96486874767925)">
+        <attvalues>
+          <attvalue for="0" value="59.052071794774335" />
+          <attvalue for="1" value="172.96486874767925" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(71.97104534233796, 155.34307235228962)" label="(71.97104534233796, 155.34307235228962)">
+        <attvalues>
+          <attvalue for="0" value="71.97104534233796" />
+          <attvalue for="1" value="155.34307235228962" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(99.99999999999999, 146.74601529916657)" label="(99.99999999999999, 146.74601529916657)">
+        <attvalues>
+          <attvalue for="0" value="99.99999999999999" />
+          <attvalue for="1" value="146.74601529916657" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(90.05094423395622, 129.51374522504267)" label="(90.05094423395622, 129.51374522504267)">
+        <attvalues>
+          <attvalue for="0" value="90.05094423395622" />
+          <attvalue for="1" value="129.51374522504267" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(113.83400386508612, 122.78481773273316)" label="(113.83400386508612, 122.78481773273316)">
+        <attvalues>
+          <attvalue for="0" value="113.83400386508612" />
+          <attvalue for="1" value="122.78481773273316" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(138.79338081194575, 161.20661918805422)" label="(138.79338081194575, 161.20661918805422)">
+        <attvalues>
+          <attvalue for="0" value="138.79338081194575" />
+          <attvalue for="1" value="161.20661918805422" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(143.74717415958582, 142.7188107244647)" label="(143.74717415958582, 142.7188107244647)">
+        <attvalues>
+          <attvalue for="0" value="143.74717415958582" />
+          <attvalue for="1" value="142.7188107244647" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(154.36242408773325, 157.03490661538177)" label="(154.36242408773325, 157.03490661538177)">
+        <attvalues>
+          <attvalue for="0" value="154.36242408773325" />
+          <attvalue for="1" value="157.03490661538177" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(150.0, 150.0)" label="(150.0, 150.0)">
+        <attvalues>
+          <attvalue for="0" value="150.0" />
+          <attvalue for="1" value="150.0" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(191.8464455452671, 150.0)" label="(191.8464455452671, 150.0)">
+        <attvalues>
+          <attvalue for="0" value="191.8464455452671" />
+          <attvalue for="1" value="150.0" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(214.0191728513881, 137.19856992114288)" label="(214.0191728513881, 137.19856992114288)">
+        <attvalues>
+          <attvalue for="0" value="214.0191728513881" />
+          <attvalue for="1" value="137.19856992114288" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(212.70847757958768, 162.0446998108576)" label="(212.70847757958768, 162.0446998108576)">
+        <attvalues>
+          <attvalue for="0" value="212.70847757958768" />
+          <attvalue for="1" value="162.0446998108576" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(190.62242916827395, 190.62242916827395)" label="(190.62242916827395, 190.62242916827395)">
+        <attvalues>
+          <attvalue for="0" value="190.62242916827395" />
+          <attvalue for="1" value="190.62242916827395" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(150.0, 181.9067505085807)" label="(150.0, 181.9067505085807)">
+        <attvalues>
+          <attvalue for="0" value="150.0" />
+          <attvalue for="1" value="181.9067505085807" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(161.93473340780795, 202.57831514569372)" label="(161.93473340780795, 202.57831514569372)">
+        <attvalues>
+          <attvalue for="0" value="161.93473340780795" />
+          <attvalue for="1" value="202.57831514569372" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(138.95838806128538, 201.0313833838935)" label="(138.95838806128538, 201.0313833838935)">
+        <attvalues>
+          <attvalue for="0" value="138.95838806128538" />
+          <attvalue for="1" value="201.0313833838935" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(112.64810855733322, 187.35189144266678)" label="(112.64810855733322, 187.35189144266678)">
+        <attvalues>
+          <attvalue for="0" value="112.64810855733322" />
+          <attvalue for="1" value="187.35189144266678" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(118.78699231384707, 150.0)" label="(118.78699231384707, 150.0)">
+        <attvalues>
+          <attvalue for="0" value="118.78699231384707" />
+          <attvalue for="1" value="150.0" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(126.4980737746378, 126.49807377463782)" label="(126.4980737746378, 126.49807377463782)">
+        <attvalues>
+          <attvalue for="0" value="126.4980737746378" />
+          <attvalue for="1" value="126.49807377463782" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(150.0, 103.1017328407085)" label="(150.0, 103.1017328407085)">
+        <attvalues>
+          <attvalue for="0" value="150.0" />
+          <attvalue for="1" value="103.1017328407085" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(187.2408634435066, 112.75913655649337)" label="(187.2408634435066, 112.75913655649337)">
+        <attvalues>
+          <attvalue for="0" value="187.2408634435066" />
+          <attvalue for="1" value="112.75913655649337" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(193.82050271385873, 88.20358850406377)" label="(193.82050271385873, 88.20358850406377)">
+        <attvalues>
+          <attvalue for="0" value="193.82050271385873" />
+          <attvalue for="1" value="88.20358850406377" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(206.01315402191779, 107.72911645592573)" label="(206.01315402191779, 107.72911645592573)">
+        <attvalues>
+          <attvalue for="0" value="206.01315402191779" />
+          <attvalue for="1" value="107.72911645592573" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(120.0, 80.0)" label="(120.0, 80.0)">
+        <attvalues>
+          <attvalue for="0" value="120.0" />
+          <attvalue for="1" value="80.0" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(174.11016230697345, 80.0)" label="(174.11016230697345, 80.0)">
+        <attvalues>
+          <attvalue for="0" value="174.11016230697345" />
+          <attvalue for="1" value="80.0" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(191.3139087804635, 70.06741234246044)" label="(191.3139087804635, 70.06741234246044)">
+        <attvalues>
+          <attvalue for="0" value="191.3139087804635" />
+          <attvalue for="1" value="70.06741234246044" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(190.0615079813959, 89.20951371906456)" label="(190.0615079813959, 89.20951371906456)">
+        <attvalues>
+          <attvalue for="0" value="190.0615079813959" />
+          <attvalue for="1" value="89.20951371906456" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(148.6923183100687, 108.69231831006873)" label="(148.6923183100687, 108.69231831006873)">
+        <attvalues>
+          <attvalue for="0" value="148.6923183100687" />
+          <attvalue for="1" value="108.69231831006873" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(169.22902672618423, 114.19511274536032)" label="(169.22902672618423, 114.19511274536032)">
+        <attvalues>
+          <attvalue for="0" value="169.22902672618423" />
+          <attvalue for="1" value="114.19511274536032" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(153.62053963119516, 127.0846906714568)" label="(153.62053963119516, 127.0846906714568)">
+        <attvalues>
+          <attvalue for="0" value="153.62053963119516" />
+          <attvalue for="1" value="127.0846906714568" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(120.0, 119.69608796062266)" label="(120.0, 119.69608796062266)">
+        <attvalues>
+          <attvalue for="0" value="120.0" />
+          <attvalue for="1" value="119.69608796062266" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(97.41022412508775, 102.58977587491225)" label="(97.41022412508775, 102.58977587491225)">
+        <attvalues>
+          <attvalue for="0" value="97.41022412508775" />
+          <attvalue for="1" value="102.58977587491225" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(75.08254482322843, 80.0)" label="(75.08254482322843, 80.0)">
+        <attvalues>
+          <attvalue for="0" value="75.08254482322843" />
+          <attvalue for="1" value="80.0" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(58.626576732315215, 89.50085760706463)" label="(58.626576732315215, 89.50085760706463)">
+        <attvalues>
+          <attvalue for="0" value="58.626576732315215" />
+          <attvalue for="1" value="89.50085760706463" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(61.662822151878316, 72.2521195032459)" label="(61.662822151878316, 72.2521195032459)">
+        <attvalues>
+          <attvalue for="0" value="61.662822151878316" />
+          <attvalue for="1" value="72.2521195032459" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(93.70492144226897, 53.70492144226898)" label="(93.70492144226897, 53.70492144226898)">
+        <attvalues>
+          <attvalue for="0" value="93.70492144226897" />
+          <attvalue for="1" value="53.70492144226898" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(119.99999999999999, 33.413207327860164)" label="(119.99999999999999, 33.413207327860164)">
+        <attvalues>
+          <attvalue for="0" value="119.99999999999999" />
+          <attvalue for="1" value="33.413207327860164" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(146.35019147022692, 53.64980852977306)" label="(146.35019147022692, 53.64980852977306)">
+        <attvalues>
+          <attvalue for="0" value="146.35019147022692" />
+          <attvalue for="1" value="53.64980852977306" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(152.69202046851288, 29.98178049525616)" label="(152.69202046851288, 29.98178049525616)">
+        <attvalues>
+          <attvalue for="0" value="152.69202046851288" />
+          <attvalue for="1" value="29.98178049525616" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="(172.94168266336328, 46.524639939032866)" label="(172.94168266336328, 46.524639939032866)">
+        <attvalues>
+          <attvalue for="0" value="172.94168266336328" />
+          <attvalue for="1" value="46.524639939032866" />
+          <attvalue for="2" value="network" />
+        </attvalues>
+      </node>
+      <node id="substation_0" label="substation_0">
+        <attvalues>
+          <attvalue for="0" value="100.0" />
+          <attvalue for="1" value="200.0" />
+          <attvalue for="2" value="substation" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="5000" />
+          <attvalue for="5" value="Poste Nord" />
+        </attvalues>
+      </node>
+      <node id="substation_1" label="substation_1">
+        <attvalues>
+          <attvalue for="0" value="150.0" />
+          <attvalue for="1" value="150.0" />
+          <attvalue for="2" value="substation" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="8000" />
+          <attvalue for="5" value="Poste Centre" />
+        </attvalues>
+      </node>
+      <node id="substation_2" label="substation_2">
+        <attvalues>
+          <attvalue for="0" value="120.0" />
+          <attvalue for="1" value="80.0" />
+          <attvalue for="2" value="substation" />
+          <attvalue for="3" value="2" />
+          <attvalue for="4" value="6000" />
+          <attvalue for="5" value="Poste Sud" />
+        </attvalues>
+      </node>
+      <node id="building_0" label="building_0">
+        <attvalues>
+          <attvalue for="0" value="146.53940874699703" />
+          <attvalue for="1" value="204.50458486646957" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_1" label="building_1">
+        <attvalues>
+          <attvalue for="0" value="126.33023641292091" />
+          <attvalue for="1" value="90.76923953562883" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_2" label="building_2">
+        <attvalues>
+          <attvalue for="0" value="113.73292231962745" />
+          <attvalue for="1" value="143.19524309494642" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_3" label="building_3">
+        <attvalues>
+          <attvalue for="0" value="82.4820873364648" />
+          <attvalue for="1" value="216.4448512901413" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_4" label="building_4">
+        <attvalues>
+          <attvalue for="0" value="142.5982450637597" />
+          <attvalue for="1" value="197.09999603621884" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_5" label="building_5">
+        <attvalues>
+          <attvalue for="0" value="80.24130445864891" />
+          <attvalue for="1" value="211.49883643159882" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_6" label="building_6">
+        <attvalues>
+          <attvalue for="0" value="107.29327701535708" />
+          <attvalue for="1" value="112.85772343027895" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_7" label="building_7">
+        <attvalues>
+          <attvalue for="0" value="114.49589398344091" />
+          <attvalue for="1" value="209.79861777697278" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="7" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_8" label="building_8">
+        <attvalues>
+          <attvalue for="0" value="168.84096073797872" />
+          <attvalue for="1" value="159.15723073872618" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="8" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_9" label="building_9">
+        <attvalues>
+          <attvalue for="0" value="101.23130722112123" />
+          <attvalue for="1" value="104.96549486199082" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="9" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_10" label="building_10">
+        <attvalues>
+          <attvalue for="0" value="94.66962404066157" />
+          <attvalue for="1" value="178.19225984255647" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="10" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="low" />
+        </attvalues>
+      </node>
+      <node id="building_11" label="building_11">
+        <attvalues>
+          <attvalue for="0" value="110.31156630411459" />
+          <attvalue for="1" value="183.95069415018122" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="11" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_12" label="building_12">
+        <attvalues>
+          <attvalue for="0" value="125.96954845226361" />
+          <attvalue for="1" value="164.5398712734612" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="12" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_13" label="building_13">
+        <attvalues>
+          <attvalue for="0" value="177.678214410251" />
+          <attvalue for="1" value="137.6135875327019" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="13" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_14" label="building_14">
+        <attvalues>
+          <attvalue for="0" value="125.29008024157113" />
+          <attvalue for="1" value="153.84269923274462" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="14" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="low" />
+        </attvalues>
+      </node>
+      <node id="building_15" label="building_15">
+        <attvalues>
+          <attvalue for="0" value="124.91127178732276" />
+          <attvalue for="1" value="152.96075585765294" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="15" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_16" label="building_16">
+        <attvalues>
+          <attvalue for="0" value="121.69389653900373" />
+          <attvalue for="1" value="100.32086152341654" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="16" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_17" label="building_17">
+        <attvalues>
+          <attvalue for="0" value="174.83790317263487" />
+          <attvalue for="1" value="109.53505484069247" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="17" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_18" label="building_18">
+        <attvalues>
+          <attvalue for="0" value="177.83647420876503" />
+          <attvalue for="1" value="63.56232608110308" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="18" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_19" label="building_19">
+        <attvalues>
+          <attvalue for="0" value="99.53223425791725" />
+          <attvalue for="1" value="137.3503773697368" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="19" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_20" label="building_20">
+        <attvalues>
+          <attvalue for="0" value="146.56327763424702" />
+          <attvalue for="1" value="152.6110106160857" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="20" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_21" label="building_21">
+        <attvalues>
+          <attvalue for="0" value="102.48196472608326" />
+          <attvalue for="1" value="108.0591375629481" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="21" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_22" label="building_22">
+        <attvalues>
+          <attvalue for="0" value="109.54402663417306" />
+          <attvalue for="1" value="102.8465319676088" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="22" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_23" label="building_23">
+        <attvalues>
+          <attvalue for="0" value="165.37795504381143" />
+          <attvalue for="1" value="214.38329946016484" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="23" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_24" label="building_24">
+        <attvalues>
+          <attvalue for="0" value="91.37013488632465" />
+          <attvalue for="1" value="62.76936505998698" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="24" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_25" label="building_25">
+        <attvalues>
+          <attvalue for="0" value="167.52788638457258" />
+          <attvalue for="1" value="54.97101893726685" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="25" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_26" label="building_26">
+        <attvalues>
+          <attvalue for="0" value="129.69090981783341" />
+          <attvalue for="1" value="101.5774253830912" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="26" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_27" label="building_27">
+        <attvalues>
+          <attvalue for="0" value="160.4860616725624" />
+          <attvalue for="1" value="114.83431545402732" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="27" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="low" />
+        </attvalues>
+      </node>
+      <node id="building_28" label="building_28">
+        <attvalues>
+          <attvalue for="0" value="176.17770134298468" />
+          <attvalue for="1" value="132.30772909047113" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="28" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_29" label="building_29">
+        <attvalues>
+          <attvalue for="0" value="115.24892955623464" />
+          <attvalue for="1" value="175.9121979380949" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="29" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="low" />
+        </attvalues>
+      </node>
+      <node id="building_30" label="building_30">
+        <attvalues>
+          <attvalue for="0" value="148.60546145979472" />
+          <attvalue for="1" value="57.39215301821764" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="30" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_31" label="building_31">
+        <attvalues>
+          <attvalue for="0" value="78.63020194764925" />
+          <attvalue for="1" value="54.563133814782354" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="31" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_32" label="building_32">
+        <attvalues>
+          <attvalue for="0" value="145.73498908419032" />
+          <attvalue for="1" value="60.47484719151985" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="32" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_33" label="building_33">
+        <attvalues>
+          <attvalue for="0" value="80.3260619089421" />
+          <attvalue for="1" value="82.91587947931532" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="33" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_34" label="building_34">
+        <attvalues>
+          <attvalue for="0" value="151.16866083653454" />
+          <attvalue for="1" value="149.7837294520521" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="34" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_35" label="building_35">
+        <attvalues>
+          <attvalue for="0" value="97.25040884512732" />
+          <attvalue for="1" value="114.07508215722709" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="35" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_36" label="building_36">
+        <attvalues>
+          <attvalue for="0" value="82.76799045576078" />
+          <attvalue for="1" value="58.280475563915495" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="36" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_37" label="building_37">
+        <attvalues>
+          <attvalue for="0" value="71.88772120149252" />
+          <attvalue for="1" value="187.40559614070398" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="37" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_38" label="building_38">
+        <attvalues>
+          <attvalue for="0" value="121.11411942335725" />
+          <attvalue for="1" value="166.9592628756974" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="38" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="low" />
+        </attvalues>
+      </node>
+      <node id="building_39" label="building_39">
+        <attvalues>
+          <attvalue for="0" value="98.69829856758854" />
+          <attvalue for="1" value="52.754817252269255" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="39" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_40" label="building_40">
+        <attvalues>
+          <attvalue for="0" value="145.23601463379552" />
+          <attvalue for="1" value="160.8532095901845" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="40" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_41" label="building_41">
+        <attvalues>
+          <attvalue for="0" value="140.00439571906122" />
+          <attvalue for="1" value="194.17087304283194" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="41" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_42" label="building_42">
+        <attvalues>
+          <attvalue for="0" value="120.40781795406683" />
+          <attvalue for="1" value="148.2110220768683" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="42" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_43" label="building_43">
+        <attvalues>
+          <attvalue for="0" value="175.73096202063056" />
+          <attvalue for="1" value="212.96311555209147" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="43" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="low" />
+        </attvalues>
+      </node>
+      <node id="building_44" label="building_44">
+        <attvalues>
+          <attvalue for="0" value="111.49849915507735" />
+          <attvalue for="1" value="57.013363815842055" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="44" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_45" label="building_45">
+        <attvalues>
+          <attvalue for="0" value="112.39362830621215" />
+          <attvalue for="1" value="172.69046041510217" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="45" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_46" label="building_46">
+        <attvalues>
+          <attvalue for="0" value="82.99813103838218" />
+          <attvalue for="1" value="175.4126897655471" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="46" />
+          <attvalue for="7" value="true" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+      <node id="building_47" label="building_47">
+        <attvalues>
+          <attvalue for="0" value="150.8578148184274" />
+          <attvalue for="1" value="194.62656746927274" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="47" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_48" label="building_48">
+        <attvalues>
+          <attvalue for="0" value="132.5372312124954" />
+          <attvalue for="1" value="153.66642354645523" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="48" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="high" />
+        </attvalues>
+      </node>
+      <node id="building_49" label="building_49">
+        <attvalues>
+          <attvalue for="0" value="133.85984135783008" />
+          <attvalue for="1" value="206.08098929774997" />
+          <attvalue for="2" value="building" />
+          <attvalue for="6" value="49" />
+          <attvalue for="7" value="false" />
+          <attvalue for="8" value="medium" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="(100.0, 200.0)" target="(141.23620356542088, 200.0)" id="0" weight="41.23620356542088">
+        <attvalues>
+          <attvalue for="9" value="41.23620356542088" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="206" />
+        </attvalues>
+      </edge>
+      <edge source="(100.0, 200.0)" target="(136.23369107555112, 236.23369107555112)" id="1" weight="512.4217733388138">
+        <attvalues>
+          <attvalue for="9" value="51.24217733388137" />
+          <attvalue for="10" value="3" />
+          <attvalue for="11" value="damaged" />
+          <attvalue for="12" value="357" />
+        </attvalues>
+      </edge>
+      <edge source="(100.0, 200.0)" target="(100.0, 238.73687420594126)" id="2" weight="38.73687420594126">
+        <attvalues>
+          <attvalue for="9" value="38.73687420594126" />
+          <attvalue for="10" value="6" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="269" />
+        </attvalues>
+      </edge>
+      <edge source="(100.0, 200.0)" target="(58.13032264668496, 241.86967735331504)" id="3" weight="59.21266556524377">
+        <attvalues>
+          <attvalue for="9" value="59.21266556524377" />
+          <attvalue for="10" value="7" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="274" />
+        </attvalues>
+      </edge>
+      <edge source="(100.0, 200.0)" target="(68.04845221044161, 200.0)" id="4" weight="31.95154778955839">
+        <attvalues>
+          <attvalue for="9" value="31.95154778955839" />
+          <attvalue for="10" value="10" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="415" />
+        </attvalues>
+      </edge>
+      <edge source="(100.0, 200.0)" target="(78.05730587013714, 178.05730587013716)" id="5" weight="31.03165563345654">
+        <attvalues>
+          <attvalue for="9" value="31.03165563345654" />
+          <attvalue for="10" value="13" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="149" />
+        </attvalues>
+      </edge>
+      <edge source="(100.0, 200.0)" target="(99.99999999999999, 146.74601529916657)" id="6" weight="53.25398470083343">
+        <attvalues>
+          <attvalue for="9" value="53.25398470083343" />
+          <attvalue for="10" value="16" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="369" />
+        </attvalues>
+      </edge>
+      <edge source="(100.0, 200.0)" target="(138.79338081194575, 161.20661918805422)" id="7" weight="54.86212527455789">
+        <attvalues>
+          <attvalue for="9" value="54.86212527455789" />
+          <attvalue for="10" value="19" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="351" />
+        </attvalues>
+      </edge>
+      <edge source="(100.0, 200.0)" target="substation_0" id="8" weight="0.0" type="connection">
+        <attvalues>
+          <attvalue for="9" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="(100.0, 200.0)" target="building_7" id="9" weight="17.496966957686272" type="connection">
+        <attvalues>
+          <attvalue for="9" value="17.496966957686272" />
+        </attvalues>
+      </edge>
+      <edge source="(141.23620356542088, 200.0)" target="(161.97989560770364, 188.02362381540135)" id="10" weight="23.9527523691973">
+        <attvalues>
+          <attvalue for="9" value="23.9527523691973" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="124" />
+        </attvalues>
+      </edge>
+      <edge source="(141.23620356542088, 200.0)" target="(160.1924027287219, 210.94436668974402)" id="11" weight="21.888733379488013">
+        <attvalues>
+          <attvalue for="9" value="21.888733379488013" />
+          <attvalue for="10" value="2" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="153" />
+        </attvalues>
+      </edge>
+      <edge source="(141.23620356542088, 200.0)" target="building_0" id="12" weight="6.958108221141919" type="connection">
+        <attvalues>
+          <attvalue for="9" value="6.958108221141919" />
+        </attvalues>
+      </edge>
+      <edge source="(141.23620356542088, 200.0)" target="building_4" id="13" weight="3.2039319644997883" type="connection">
+        <attvalues>
+          <attvalue for="9" value="3.2039319644997883" />
+        </attvalues>
+      </edge>
+      <edge source="(141.23620356542088, 200.0)" target="building_41" id="14" weight="5.9578579752404766" type="connection">
+        <attvalues>
+          <attvalue for="9" value="5.9578579752404766" />
+        </attvalues>
+      </edge>
+      <edge source="(141.23620356542088, 200.0)" target="building_47" id="15" weight="11.02039837148639" type="connection">
+        <attvalues>
+          <attvalue for="9" value="11.02039837148639" />
+        </attvalues>
+      </edge>
+      <edge source="(160.1924027287219, 210.94436668974402)" target="building_23" id="16" weight="6.2222352424192815" type="connection">
+        <attvalues>
+          <attvalue for="9" value="6.2222352424192815" />
+        </attvalues>
+      </edge>
+      <edge source="(160.1924027287219, 210.94436668974402)" target="building_43" id="17" weight="15.669147131780655" type="connection">
+        <attvalues>
+          <attvalue for="9" value="15.669147131780655" />
+        </attvalues>
+      </edge>
+      <edge source="(136.23369107555112, 236.23369107555112)" target="(164.3211629844654, 243.75970649097655)" id="18" weight="290.7829063523627">
+        <attvalues>
+          <attvalue for="9" value="29.07829063523627" />
+          <attvalue for="10" value="4" />
+          <attvalue for="11" value="damaged" />
+          <attvalue for="12" value="70" />
+        </attvalues>
+      </edge>
+      <edge source="(136.23369107555112, 236.23369107555112)" target="(142.51321637244357, 259.6691985309677)" id="19" weight="24.262222644415726">
+        <attvalues>
+          <attvalue for="9" value="24.262222644415726" />
+          <attvalue for="10" value="5" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="138" />
+        </attvalues>
+      </edge>
+      <edge source="(58.13032264668496, 241.86967735331504)" target="(52.76321025963051, 261.9000134717345)" id="20" weight="20.736929869007426">
+        <attvalues>
+          <attvalue for="9" value="20.736929869007426" />
+          <attvalue for="10" value="8" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="180" />
+        </attvalues>
+      </edge>
+      <edge source="(58.13032264668496, 241.86967735331504)" target="(31.18185553330687, 249.09049735360136)" id="21" weight="27.8991061010448">
+        <attvalues>
+          <attvalue for="9" value="27.8991061010448" />
+          <attvalue for="10" value="9" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="122" />
+        </attvalues>
+      </edge>
+      <edge source="(68.04845221044161, 200.0)" target="(50.05136392011528, 210.39062376904937)" id="22" weight="207.8124753809874">
+        <attvalues>
+          <attvalue for="9" value="20.78124753809874" />
+          <attvalue for="10" value="11" />
+          <attvalue for="11" value="damaged" />
+          <attvalue for="12" value="179" />
+        </attvalues>
+      </edge>
+      <edge source="(68.04845221044161, 200.0)" target="(46.16962340765744, 187.36825230115883)" id="23" weight="25.26349539768235">
+        <attvalues>
+          <attvalue for="9" value="25.26349539768235" />
+          <attvalue for="10" value="12" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="57" />
+        </attvalues>
+      </edge>
+      <edge source="(68.04845221044161, 200.0)" target="building_3" id="24" weight="21.880652570388115" type="connection">
+        <attvalues>
+          <attvalue for="9" value="21.880652570388115" />
+        </attvalues>
+      </edge>
+      <edge source="(68.04845221044161, 200.0)" target="building_5" id="25" weight="16.75974001073042" type="connection">
+        <attvalues>
+          <attvalue for="9" value="16.75974001073042" />
+        </attvalues>
+      </edge>
+      <edge source="(78.05730587013714, 178.05730587013716)" target="(59.052071794774335, 172.96486874767925)" id="26" weight="19.67566614134116">
+        <attvalues>
+          <attvalue for="9" value="19.67566614134116" />
+          <attvalue for="10" value="14" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="155" />
+        </attvalues>
+      </edge>
+      <edge source="(78.05730587013714, 178.05730587013716)" target="(71.97104534233796, 155.34307235228962)" id="27" weight="235.15504917299876">
+        <attvalues>
+          <attvalue for="9" value="23.515504917299875" />
+          <attvalue for="10" value="15" />
+          <attvalue for="11" value="damaged" />
+          <attvalue for="12" value="195" />
+        </attvalues>
+      </edge>
+      <edge source="(78.05730587013714, 178.05730587013716)" target="building_10" id="28" weight="16.61286632623666" type="connection">
+        <attvalues>
+          <attvalue for="9" value="16.61286632623666" />
+        </attvalues>
+      </edge>
+      <edge source="(78.05730587013714, 178.05730587013716)" target="building_37" id="29" weight="11.200638641003868" type="connection">
+        <attvalues>
+          <attvalue for="9" value="11.200638641003868" />
+        </attvalues>
+      </edge>
+      <edge source="(78.05730587013714, 178.05730587013716)" target="building_46" id="30" weight="5.6040831260627035" type="connection">
+        <attvalues>
+          <attvalue for="9" value="5.6040831260627035" />
+        </attvalues>
+      </edge>
+      <edge source="(99.99999999999999, 146.74601529916657)" target="(90.05094423395622, 129.51374522504267)" id="31" weight="19.898111532087537">
+        <attvalues>
+          <attvalue for="9" value="19.898111532087537" />
+          <attvalue for="10" value="17" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="89" />
+        </attvalues>
+      </edge>
+      <edge source="(99.99999999999999, 146.74601529916657)" target="(113.83400386508612, 122.78481773273316)" id="32" weight="27.66800773017227">
+        <attvalues>
+          <attvalue for="9" value="27.66800773017227" />
+          <attvalue for="10" value="18" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="160" />
+        </attvalues>
+      </edge>
+      <edge source="(99.99999999999999, 146.74601529916657)" target="building_19" id="33" weight="9.407274679225939" type="connection">
+        <attvalues>
+          <attvalue for="9" value="9.407274679225939" />
+        </attvalues>
+      </edge>
+      <edge source="(113.83400386508612, 122.78481773273316)" target="building_6" id="34" weight="11.888158352435637" type="connection">
+        <attvalues>
+          <attvalue for="9" value="11.888158352435637" />
+        </attvalues>
+      </edge>
+      <edge source="(138.79338081194575, 161.20661918805422)" target="(143.74717415958582, 142.7188107244647)" id="35" weight="19.139987730338156">
+        <attvalues>
+          <attvalue for="9" value="19.139987730338156" />
+          <attvalue for="10" value="20" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="94" />
+        </attvalues>
+      </edge>
+      <edge source="(138.79338081194575, 161.20661918805422)" target="(154.36242408773325, 157.03490661538177)" id="36" weight="16.11825965519656">
+        <attvalues>
+          <attvalue for="9" value="16.11825965519656" />
+          <attvalue for="10" value="21" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="137" />
+        </attvalues>
+      </edge>
+      <edge source="(138.79338081194575, 161.20661918805422)" target="building_12" id="37" weight="13.249952673655132" type="connection">
+        <attvalues>
+          <attvalue for="9" value="13.249952673655132" />
+        </attvalues>
+      </edge>
+      <edge source="(138.79338081194575, 161.20661918805422)" target="building_40" id="38" weight="6.452319653140953" type="connection">
+        <attvalues>
+          <attvalue for="9" value="6.452319653140953" />
+        </attvalues>
+      </edge>
+      <edge source="(138.79338081194575, 161.20661918805422)" target="building_48" id="39" weight="9.79765064310271" type="connection">
+        <attvalues>
+          <attvalue for="9" value="9.79765064310271" />
+        </attvalues>
+      </edge>
+      <edge source="(154.36242408773325, 157.03490661538177)" target="building_8" id="40" weight="14.633259487107821" type="connection">
+        <attvalues>
+          <attvalue for="9" value="14.633259487107821" />
+        </attvalues>
+      </edge>
+      <edge source="(150.0, 150.0)" target="(191.8464455452671, 150.0)" id="41" weight="41.8464455452671">
+        <attvalues>
+          <attvalue for="9" value="41.8464455452671" />
+          <attvalue for="10" value="22" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="162" />
+        </attvalues>
+      </edge>
+      <edge source="(150.0, 150.0)" target="(190.62242916827395, 190.62242916827395)" id="42" weight="57.44879026631343">
+        <attvalues>
+          <attvalue for="9" value="57.44879026631343" />
+          <attvalue for="10" value="25" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="367" />
+        </attvalues>
+      </edge>
+      <edge source="(150.0, 150.0)" target="(150.0, 181.9067505085807)" id="43" weight="31.9067505085807">
+        <attvalues>
+          <attvalue for="9" value="31.9067505085807" />
+          <attvalue for="10" value="26" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="315" />
+        </attvalues>
+      </edge>
+      <edge source="(150.0, 150.0)" target="(112.64810855733322, 187.35189144266678)" id="44" weight="52.82355145850691">
+        <attvalues>
+          <attvalue for="9" value="52.82355145850691" />
+          <attvalue for="10" value="29" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="354" />
+        </attvalues>
+      </edge>
+      <edge source="(150.0, 150.0)" target="(118.78699231384707, 150.0)" id="45" weight="31.213007686152935">
+        <attvalues>
+          <attvalue for="9" value="31.213007686152935" />
+          <attvalue for="10" value="30" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="445" />
+        </attvalues>
+      </edge>
+      <edge source="(150.0, 150.0)" target="(126.4980737746378, 126.49807377463782)" id="46" weight="332.3674280979913">
+        <attvalues>
+          <attvalue for="9" value="33.23674280979913" />
+          <attvalue for="10" value="31" />
+          <attvalue for="11" value="damaged" />
+          <attvalue for="12" value="330" />
+        </attvalues>
+      </edge>
+      <edge source="(150.0, 150.0)" target="(150.0, 103.1017328407085)" id="47" weight="46.89826715929151">
+        <attvalues>
+          <attvalue for="9" value="46.89826715929151" />
+          <attvalue for="10" value="32" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="330" />
+        </attvalues>
+      </edge>
+      <edge source="(150.0, 150.0)" target="(187.2408634435066, 112.75913655649337)" id="48" weight="52.66653415629146">
+        <attvalues>
+          <attvalue for="9" value="52.66653415629146" />
+          <attvalue for="10" value="33" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="259" />
+        </attvalues>
+      </edge>
+      <edge source="(150.0, 150.0)" target="substation_1" id="49" weight="0.0" type="connection">
+        <attvalues>
+          <attvalue for="9" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="(150.0, 150.0)" target="building_20" id="50" weight="4.316067313721955" type="connection">
+        <attvalues>
+          <attvalue for="9" value="4.316067313721955" />
+        </attvalues>
+      </edge>
+      <edge source="(150.0, 150.0)" target="building_34" id="51" weight="1.1885037234940807" type="connection">
+        <attvalues>
+          <attvalue for="9" value="1.1885037234940807" />
+        </attvalues>
+      </edge>
+      <edge source="(191.8464455452671, 150.0)" target="(214.0191728513881, 137.19856992114288)" id="52" weight="25.602860157714254">
+        <attvalues>
+          <attvalue for="9" value="25.602860157714254" />
+          <attvalue for="10" value="23" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="82" />
+        </attvalues>
+      </edge>
+      <edge source="(191.8464455452671, 150.0)" target="(212.70847757958768, 162.0446998108576)" id="53" weight="24.08939962171517">
+        <attvalues>
+          <attvalue for="9" value="24.08939962171517" />
+          <attvalue for="10" value="24" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="90" />
+        </attvalues>
+      </edge>
+      <edge source="(191.8464455452671, 150.0)" target="building_13" id="54" weight="18.81919199395334" type="connection">
+        <attvalues>
+          <attvalue for="9" value="18.81919199395334" />
+        </attvalues>
+      </edge>
+      <edge source="(150.0, 181.9067505085807)" target="(161.93473340780795, 202.57831514569372)" id="55" weight="23.869466815615905">
+        <attvalues>
+          <attvalue for="9" value="23.869466815615905" />
+          <attvalue for="10" value="27" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="84" />
+        </attvalues>
+      </edge>
+      <edge source="(150.0, 181.9067505085807)" target="(138.95838806128538, 201.0313833838935)" id="56" weight="22.08322387742924">
+        <attvalues>
+          <attvalue for="9" value="22.08322387742924" />
+          <attvalue for="10" value="28" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="180" />
+        </attvalues>
+      </edge>
+      <edge source="(138.95838806128538, 201.0313833838935)" target="building_49" id="57" weight="7.175910978584458" type="connection">
+        <attvalues>
+          <attvalue for="9" value="7.175910978584458" />
+        </attvalues>
+      </edge>
+      <edge source="(112.64810855733322, 187.35189144266678)" target="building_11" id="58" weight="4.126447954777461" type="connection">
+        <attvalues>
+          <attvalue for="9" value="4.126447954777461" />
+        </attvalues>
+      </edge>
+      <edge source="(112.64810855733322, 187.35189144266678)" target="building_29" id="59" weight="11.73161784865459" type="connection">
+        <attvalues>
+          <attvalue for="9" value="11.73161784865459" />
+        </attvalues>
+      </edge>
+      <edge source="(112.64810855733322, 187.35189144266678)" target="building_45" id="60" weight="14.663639383667519" type="connection">
+        <attvalues>
+          <attvalue for="9" value="14.663639383667519" />
+        </attvalues>
+      </edge>
+      <edge source="(118.78699231384707, 150.0)" target="building_2" id="61" weight="8.476340014613939" type="connection">
+        <attvalues>
+          <attvalue for="9" value="8.476340014613939" />
+        </attvalues>
+      </edge>
+      <edge source="(118.78699231384707, 150.0)" target="building_14" id="62" weight="7.5535746497301925" type="connection">
+        <attvalues>
+          <attvalue for="9" value="7.5535746497301925" />
+        </attvalues>
+      </edge>
+      <edge source="(118.78699231384707, 150.0)" target="building_15" id="63" weight="6.802416799775059" type="connection">
+        <attvalues>
+          <attvalue for="9" value="6.802416799775059" />
+        </attvalues>
+      </edge>
+      <edge source="(118.78699231384707, 150.0)" target="building_38" id="64" weight="17.1181809159392" type="connection">
+        <attvalues>
+          <attvalue for="9" value="17.1181809159392" />
+        </attvalues>
+      </edge>
+      <edge source="(118.78699231384707, 150.0)" target="building_42" id="65" weight="2.41402522054896" type="connection">
+        <attvalues>
+          <attvalue for="9" value="2.41402522054896" />
+        </attvalues>
+      </edge>
+      <edge source="(187.2408634435066, 112.75913655649337)" target="(193.82050271385873, 88.20358850406377)" id="66" weight="25.421773995595565">
+        <attvalues>
+          <attvalue for="9" value="25.421773995595565" />
+          <attvalue for="10" value="34" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="94" />
+        </attvalues>
+      </edge>
+      <edge source="(187.2408634435066, 112.75913655649337)" target="(206.01315402191779, 107.72911645592573)" id="67" weight="19.434505287565706">
+        <attvalues>
+          <attvalue for="9" value="19.434505287565706" />
+          <attvalue for="10" value="35" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="77" />
+        </attvalues>
+      </edge>
+      <edge source="(120.0, 80.0)" target="(174.11016230697345, 80.0)" id="68" weight="541.1016230697345">
+        <attvalues>
+          <attvalue for="9" value="54.11016230697345" />
+          <attvalue for="10" value="36" />
+          <attvalue for="11" value="damaged" />
+          <attvalue for="12" value="385" />
+        </attvalues>
+      </edge>
+      <edge source="(120.0, 80.0)" target="(148.6923183100687, 108.69231831006873)" id="69" weight="40.577065690025066">
+        <attvalues>
+          <attvalue for="9" value="40.577065690025066" />
+          <attvalue for="10" value="39" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="297" />
+        </attvalues>
+      </edge>
+      <edge source="(120.0, 80.0)" target="(120.0, 119.69608796062266)" id="70" weight="39.69608796062266">
+        <attvalues>
+          <attvalue for="9" value="39.69608796062266" />
+          <attvalue for="10" value="42" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="332" />
+        </attvalues>
+      </edge>
+      <edge source="(120.0, 80.0)" target="(97.41022412508775, 102.58977587491225)" id="71" weight="31.946767413269452">
+        <attvalues>
+          <attvalue for="9" value="31.946767413269452" />
+          <attvalue for="10" value="43" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="367" />
+        </attvalues>
+      </edge>
+      <edge source="(120.0, 80.0)" target="(75.08254482322843, 80.0)" id="72" weight="44.91745517677157">
+        <attvalues>
+          <attvalue for="9" value="44.91745517677157" />
+          <attvalue for="10" value="44" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="212" />
+        </attvalues>
+      </edge>
+      <edge source="(120.0, 80.0)" target="(93.70492144226897, 53.70492144226898)" id="73" weight="371.8685672000918">
+        <attvalues>
+          <attvalue for="9" value="37.186856720009175" />
+          <attvalue for="10" value="47" />
+          <attvalue for="11" value="damaged" />
+          <attvalue for="12" value="271" />
+        </attvalues>
+      </edge>
+      <edge source="(120.0, 80.0)" target="(119.99999999999999, 33.413207327860164)" id="74" weight="46.586792672139836">
+        <attvalues>
+          <attvalue for="9" value="46.586792672139836" />
+          <attvalue for="10" value="48" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="302" />
+        </attvalues>
+      </edge>
+      <edge source="(120.0, 80.0)" target="(146.35019147022692, 53.64980852977306)" id="75" weight="37.26479814832277">
+        <attvalues>
+          <attvalue for="9" value="37.26479814832277" />
+          <attvalue for="10" value="49" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="424" />
+        </attvalues>
+      </edge>
+      <edge source="(120.0, 80.0)" target="substation_2" id="76" weight="0.0" type="connection">
+        <attvalues>
+          <attvalue for="9" value="0.0" />
+        </attvalues>
+      </edge>
+      <edge source="(120.0, 80.0)" target="building_1" id="77" weight="12.49193392630704" type="connection">
+        <attvalues>
+          <attvalue for="9" value="12.49193392630704" />
+        </attvalues>
+      </edge>
+      <edge source="(174.11016230697345, 80.0)" target="(191.3139087804635, 70.06741234246044)" id="78" weight="19.865175315079107">
+        <attvalues>
+          <attvalue for="9" value="19.865175315079107" />
+          <attvalue for="10" value="37" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="178" />
+        </attvalues>
+      </edge>
+      <edge source="(174.11016230697345, 80.0)" target="(190.0615079813959, 89.20951371906456)" id="79" weight="18.419027438129135">
+        <attvalues>
+          <attvalue for="9" value="18.419027438129135" />
+          <attvalue for="10" value="38" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="165" />
+        </attvalues>
+      </edge>
+      <edge source="(191.3139087804635, 70.06741234246044)" target="building_18" id="80" weight="14.96520597593342" type="connection">
+        <attvalues>
+          <attvalue for="9" value="14.96520597593342" />
+        </attvalues>
+      </edge>
+      <edge source="(148.6923183100687, 108.69231831006873)" target="(169.22902672618423, 114.19511274536032)" id="81" weight="21.261165047231678">
+        <attvalues>
+          <attvalue for="9" value="21.261165047231678" />
+          <attvalue for="10" value="40" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="100" />
+        </attvalues>
+      </edge>
+      <edge source="(148.6923183100687, 108.69231831006873)" target="(153.62053963119516, 127.0846906714568)" id="82" weight="19.041185006977823">
+        <attvalues>
+          <attvalue for="9" value="19.041185006977823" />
+          <attvalue for="10" value="41" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="108" />
+        </attvalues>
+      </edge>
+      <edge source="(148.6923183100687, 108.69231831006873)" target="building_26" id="83" weight="20.289781320929674" type="connection">
+        <attvalues>
+          <attvalue for="9" value="20.289781320929674" />
+        </attvalues>
+      </edge>
+      <edge source="(169.22902672618423, 114.19511274536032)" target="building_17" id="84" weight="7.292162550739393" type="connection">
+        <attvalues>
+          <attvalue for="9" value="7.292162550739393" />
+        </attvalues>
+      </edge>
+      <edge source="(169.22902672618423, 114.19511274536032)" target="building_27" id="85" weight="8.766300133558032" type="connection">
+        <attvalues>
+          <attvalue for="9" value="8.766300133558032" />
+        </attvalues>
+      </edge>
+      <edge source="(169.22902672618423, 114.19511274536032)" target="building_28" id="86" weight="19.399766745900376" type="connection">
+        <attvalues>
+          <attvalue for="9" value="19.399766745900376" />
+        </attvalues>
+      </edge>
+      <edge source="(120.0, 119.69608796062266)" target="building_16" id="87" weight="19.449130699798896" type="connection">
+        <attvalues>
+          <attvalue for="9" value="19.449130699798896" />
+        </attvalues>
+      </edge>
+      <edge source="(97.41022412508775, 102.58977587491225)" target="building_9" id="88" weight="4.499412931967726" type="connection">
+        <attvalues>
+          <attvalue for="9" value="4.499412931967726" />
+        </attvalues>
+      </edge>
+      <edge source="(97.41022412508775, 102.58977587491225)" target="building_21" id="89" weight="7.458985855888227" type="connection">
+        <attvalues>
+          <attvalue for="9" value="7.458985855888227" />
+        </attvalues>
+      </edge>
+      <edge source="(97.41022412508775, 102.58977587491225)" target="building_22" id="90" weight="12.13651873564334" type="connection">
+        <attvalues>
+          <attvalue for="9" value="12.13651873564334" />
+        </attvalues>
+      </edge>
+      <edge source="(97.41022412508775, 102.58977587491225)" target="building_35" id="91" weight="11.48641812412771" type="connection">
+        <attvalues>
+          <attvalue for="9" value="11.48641812412771" />
+        </attvalues>
+      </edge>
+      <edge source="(75.08254482322843, 80.0)" target="(58.626576732315215, 89.50085760706463)" id="92" weight="19.001715214129273">
+        <attvalues>
+          <attvalue for="9" value="19.001715214129273" />
+          <attvalue for="10" value="45" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="103" />
+        </attvalues>
+      </edge>
+      <edge source="(75.08254482322843, 80.0)" target="(61.662822151878316, 72.2521195032459)" id="93" weight="15.495760993508222">
+        <attvalues>
+          <attvalue for="9" value="15.495760993508222" />
+          <attvalue for="10" value="46" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="178" />
+        </attvalues>
+      </edge>
+      <edge source="(75.08254482322843, 80.0)" target="building_33" id="94" weight="5.9997353746697275" type="connection">
+        <attvalues>
+          <attvalue for="9" value="5.9997353746697275" />
+        </attvalues>
+      </edge>
+      <edge source="(93.70492144226897, 53.70492144226898)" target="building_24" id="95" weight="9.360308027015291" type="connection">
+        <attvalues>
+          <attvalue for="9" value="9.360308027015291" />
+        </attvalues>
+      </edge>
+      <edge source="(93.70492144226897, 53.70492144226898)" target="building_31" id="96" weight="15.099128992024761" type="connection">
+        <attvalues>
+          <attvalue for="9" value="15.099128992024761" />
+        </attvalues>
+      </edge>
+      <edge source="(93.70492144226897, 53.70492144226898)" target="building_36" id="97" weight="11.855469409675829" type="connection">
+        <attvalues>
+          <attvalue for="9" value="11.855469409675829" />
+        </attvalues>
+      </edge>
+      <edge source="(93.70492144226897, 53.70492144226898)" target="building_39" id="98" weight="5.0829630224426925" type="connection">
+        <attvalues>
+          <attvalue for="9" value="5.0829630224426925" />
+        </attvalues>
+      </edge>
+      <edge source="(93.70492144226897, 53.70492144226898)" target="building_44" id="99" weight="18.09854134346205" type="connection">
+        <attvalues>
+          <attvalue for="9" value="18.09854134346205" />
+        </attvalues>
+      </edge>
+      <edge source="(146.35019147022692, 53.64980852977306)" target="(152.69202046851288, 29.98178049525616)" id="100" weight="24.502945661413417">
+        <attvalues>
+          <attvalue for="9" value="24.502945661413417" />
+          <attvalue for="10" value="50" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="193" />
+        </attvalues>
+      </edge>
+      <edge source="(146.35019147022692, 53.64980852977306)" target="(172.94168266336328, 46.524639939032866)" id="101" weight="27.529537433838573">
+        <attvalues>
+          <attvalue for="9" value="27.529537433838573" />
+          <attvalue for="10" value="51" />
+          <attvalue for="11" value="active" />
+          <attvalue for="12" value="119" />
+        </attvalues>
+      </edge>
+      <edge source="(146.35019147022692, 53.64980852977306)" target="building_30" id="102" weight="4.36936894711773" type="connection">
+        <attvalues>
+          <attvalue for="9" value="4.36936894711773" />
+        </attvalues>
+      </edge>
+      <edge source="(146.35019147022692, 53.64980852977306)" target="building_32" id="103" weight="6.852709442995779" type="connection">
+        <attvalues>
+          <attvalue for="9" value="6.852709442995779" />
+        </attvalues>
+      </edge>
+      <edge source="(172.94168266336328, 46.524639939032866)" target="building_25" id="104" weight="10.0324726927142" type="connection">
+        <attvalues>
+          <attvalue for="9" value="10.0324726927142" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
