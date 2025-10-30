@@ -1,7 +1,0 @@
-=== Statistiques globales ===
-Lignes totales : 5586
-Bâtiments uniques : 381
-Infrastructures uniques : 644
-Intactes : 5049
-À remplacer : 537
-Longueur totale : 161703.80 m
