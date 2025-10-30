@@ -10,7 +10,7 @@ Planification optimisée du rétablissement du raccordement électrique des bât
 ## Données et documents manquants (à fournir/valider)
 Merci de compléter/valider les éléments ci-dessous pour fiabiliser la planification :
 
-1) Type de chaque bâtiment
+1)   Type de chaque bâtiment
 - Catégories proposées : habitation individuelle, immeuble collectif, établissement public, commerce, infrastructure critique, autre.
 - Format attendu : identifiant_bâtiment → type_bâtiment.
 
