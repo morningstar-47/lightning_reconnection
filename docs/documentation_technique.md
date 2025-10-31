@@ -28,9 +28,9 @@
 │         │                      │                     │       │
 │    [GeoJSON/CSV]          [Analysis]            [Reports]   │
 │         │                      │                     │       │
-│         ├─ buildings.geojson   ├─ Graph Builder     ├─ JSON │
-│         ├─ network.geojson     ├─ Prioritization    ├─ CSV  │
-│         ├─ buildings.csv       ├─ Metrics Calc      ├─ GEXF │
+│         ├─ batiment.shp   ├─ Graph Builder     ├─ JSON │
+│         ├─ infra.shp     ├─ Prioritization    ├─ CSV  │
+│         ├─ reseau_en_arnre.csv       ├─ Metrics Calc      ├─ GEXF │
 │         └─ costs.csv           └─ Visualization     └─ PNG  │
 │                                                               │
 └─────────────────────────────────────────────────────────────┘
