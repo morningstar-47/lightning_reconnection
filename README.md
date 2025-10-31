@@ -167,15 +167,15 @@ analyzer.generate_outputs(
 
 ```python
 PRIX_PAR_M = {
-    'aérien': 50,
-    'semi-aérien': 75,
-    'fourreau': 100
+    "aerien": 500,
+    "semi-aerien": 750,
+    "fourreau": 900,
 }
 
 DUREE_PAR_M = {
-    'aérien': 0.5,      # heures-homme par mètre
-    'semi-aérien': 0.75,
-    'fourreau': 1.0
+    "aerien": 2,
+    "semi-aerien": 4,
+    "fourreau": 5,
 }
 
 WORKER_PAY_PER_8H = 300  # €/jour
@@ -192,10 +192,12 @@ safety_margin = 0.8  # Marge de sécurité (80%)
 
 #### Priorités métiers
 ```python
-PRIORITES = {
-    'hôpital': 10,
-    'école': 5,
-    'habitation': 1
+PRIORITE_TYPE_BAT = {
+    "hôpital": 1,
+    "hopital": 1,
+    "école": 2,
+    "ecole": 2,
+    "habitation": 3,
 }
 ```
 
