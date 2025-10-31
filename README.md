@@ -239,17 +239,11 @@ lightning-reconnection/
 
 ### Visualisations du réseau
 
-![Map Reconnector 00](<img src="assets/map-reconnector-00.jpg" width="500">)
-![Map Reconnector 01](<img src="assets/map-reconnector-01.jpg" width="500">)
-![Map Reconnector 02](<img src="assets/map-reconnector-02.jpg" width="500">)
-![Map Reconnector 03](<img src="assets/map-reconnector-03.jpg" width="500">)
-![Map Reconnector 04](<img src="assets/map-reconnector-04.jpg" width="500">)
-
-<img src="assets/map-reconnector-00.jpg" width="500" alt="Map Reconnector 00">
-<img src="assets/map-reconnector-01.jpg" width="500" alt="Map Reconnector 01">
-<img src="assets/map-reconnector-02.jpg" width="500" alt="Map Reconnector 02">
-<img src="assets/map-reconnector-03.jpg" width="500" alt="Map Reconnector 03">
-<img src="assets/map-reconnector-04.jpg" width="500" alt="Map Reconnector 04">
+<img src="assets/map-reconnector-00.jpg" width="200" alt="Map Reconnector 00">
+<img src="assets/map-reconnector-01.jpg" width="200" alt="Map Reconnector 01">
+<img src="assets/map-reconnector-02.jpg" width="200" alt="Map Reconnector 02">
+<img src="assets/map-reconnector-03.jpg" width="200" alt="Map Reconnector 03">
+<img src="assets/map-reconnector-04.jpg" width="200" alt="Map Reconnector 04">
 
 
 ## 📥 Données d'entrée
