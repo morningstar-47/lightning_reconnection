@@ -1,0 +1,62 @@
+================================================================================
+RAPPORT COMPLET - ANALYSE DU RACCORDEMENT ÉLECTRIQUE
+================================================================================
+
+Date de génération: 2025-10-31 10:11:32
+
+RÉSUMÉ EXÉCUTIF
+--------------------------------------------------------------------------------
+Nombre total de bâtiments à raccorder: 85
+Population concernée (nb maisons): 1667
+Nombre de segments d'infrastructure: 197
+Total d'interventions sur infrastructures: 537
+Coût total estimé: 3,320,068.31 €
+Nombre de phases de travaux: 5
+
+RÉPARTITION PAR TYPE DE BÂTIMENT
+--------------------------------------------------------------------------------
+  Habitation: 83 (97.6%)
+  École: 1 (1.2%)
+  Hôpital: 1 (1.2%)
+
+ANALYSE PAR PHASE
+--------------------------------------------------------------------------------
+
+Phase 0:
+  - Bâtiments raccordés: 1
+  - Infrastructures réparées: 3
+  - Coût: 18,483.26 €
+  - Durée estimée: 9.35 heures
+  - Main d'œuvre: 2,921.87 €
+
+Phase 1:
+  - Bâtiments raccordés: 51
+  - Infrastructures réparées: 209
+  - Coût: 1,293,658.78 €
+  - Durée estimée: 38.17 heures
+  - Main d'œuvre: 223,300.31 €
+
+Phase 2:
+  - Bâtiments raccordés: 15
+  - Infrastructures réparées: 100
+  - Coût: 652,542.85 €
+  - Durée estimée: 38.17 heures
+  - Main d'œuvre: 115,621.31 €
+
+Phase 3:
+  - Bâtiments raccordés: 11
+  - Infrastructures réparées: 132
+  - Coût: 677,691.62 €
+  - Durée estimée: 38.17 heures
+  - Main d'œuvre: 120,256.15 €
+
+Phase 4:
+  - Bâtiments raccordés: 7
+  - Infrastructures réparées: 93
+  - Coût: 677,691.80 €
+  - Durée estimée: 43.26 heures
+  - Main d'œuvre: 98,865.73 €
+
+================================================================================
+FIN DU RAPPORT
+================================================================================
