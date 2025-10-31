@@ -427,7 +427,7 @@ Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de
 ## 📞 Support
 
 - **Issues** : [GitHub Issues](https://github.com/morningstar-47/lightning_reconnection.git/issues)
-- **Email** : md5-2025@hetic.eu
+- **Email** : les-tigres-md5-2025@hetic.eu
 - **Documentation** : [Wiki](https://github.com/morningstar-47/lightning_reconnection.git/wiki)
 
 ## 🗺️ Roadmap
