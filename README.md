@@ -307,45 +307,17 @@ composite_score =
 
 ### Format attendu
 
-#### 1. `buildings.geojson`
+#### 1. `buildings.shp`
 ```json
-{
-  "type": "FeatureCollection",
-  "features": [{
-    "type": "Feature",
-    "geometry": {
-      "type": "Point",
-      "coordinates": [lon, lat]
-    },
-    "properties": {
-      "building_id": 1,
-      "connected": false,
-      "priority": "high"
-    }
-  }]
-}
+
 ```
 
-#### 2. `network.geojson`
+#### 2. `network.shp`
 ```json
-{
-  "type": "FeatureCollection",
-  "features": [{
-    "type": "Feature",
-    "geometry": {
-      "type": "LineString",
-      "coordinates": [[lon1, lat1], [lon2, lat2]]
-    },
-    "properties": {
-      "segment_id": 1,
-      "status": "active",
-      "capacity": 500
-    }
-  }]
-}
+
 ```
 
-#### 3. `buildings.csv`
+#### 3. `reseau_en_arbre.csv`
 ```csv
 building_id,inhabitants,building_type,connected,priority
 1,59,residential,false,medium
