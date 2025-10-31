@@ -231,8 +231,8 @@ lightning-reconnection/
 ├── data/                          # Données d'entrée
 │   ├── buildings.geojson         # Géométries des bâtiments
 │   ├── network.geojson           # Géométries du réseau
-│   ├── buildings.csv             # Attributs des bâtiments
-│   └── costs.csv                 # Coûts de raccordement
+│   ├── buildings.csv/xlsx             # Attributs des bâtiments
+│   └── costs.csv/xlsx                 # Coûts de raccordement
 ├── output/                        # Résultats générés
 │   ├── analysis_report.json      # Rapport d'analyse complet
 │   ├── prioritization_report.json # Rapport de priorisation
