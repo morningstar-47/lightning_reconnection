@@ -421,7 +421,7 @@ composite_score = (
 |-----|------|---------|
 | **OUAZAR Djamel** | Data Scientist | [GitHub](https://github.com/legb78) |
 | **Mopeno-Bia Emmanuel** | Data Scientist | [GitHub](https://github.com/morningstar-47) |
-| **HAMOUMA Amine** | Data Engenier | [GitHub](https://github.com/HamoumaAmine) |
+| **HAMOUMA Amine** | Data Engineer | [GitHub](https://github.com/HamoumaAmine) |
 | **ELMORTADA Hamza** | QGIS Specialist | [GitHub](https://github.com/weldhammadi) |
 
 ## 📄 Licence
