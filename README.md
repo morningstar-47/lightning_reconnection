@@ -106,6 +106,20 @@ shapely>=2.0.0
 python main.py
 ```
 
+###  Flux de données
+
+```mermaid
+graph LR
+    A[Données QGIS] --> B[Chargement]
+    C[Données CSV] --> B
+    B --> D[Validation]
+    D --> E[Construction Graphe]
+    E --> F[Analyse Réseau]
+    F --> G[Priorisation]
+    G --> H[Génération Rapports]
+    H --> I[Visualisations]
+```
+
 ### Workflow complet
 
 ```python
