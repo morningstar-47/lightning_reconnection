@@ -137,7 +137,101 @@ La durée totale est fournie par phase, mais non rapportée à la longueur d’i
 > Recommandation : inclure cette donnée pour mieux calibrer les prévisions de maintenance future.
 
 ---
+### 6. Metriques utilisées 
+## 📋 Détail Complet des 43 Métriques
 
+### 1. Infrastructure (Classe Infrastructure)
+```python
+# Métriques de base (4)
+self.longueur = float(longueur)           # Distance en mètres
+self.nb_maisons = int(nb_maisons)         # Maisons desservies
+self.type_infra                           # "aerien", "semi-aerien", "fourreau"
+self.infra_type                           # "intacte" ou "remplacer"
+
+# Métriques calculées (4)
+self.prix = longueur * PRIX_PAR_M[type]   # Coût matériel total (€)
+self.duree = longueur * DUREE_PAR_M[type] # Heures-homme totales
+self.a_reparer                            # Boolean réparation nécessaire
+self.worker_cost                          # Coût main-d'œuvre (€)
+```
+
+### 2. Bâtiment (Classe Batiment)
+```python
+# Métriques de complexité (1)
+self.difficulte = Σ(longueur/nb_maisons)  # Complexité technique
+
+# Métriques financières (2)
+self.cout_total = Σ(prix_infras)          # Coût matériel total
+self.worker_cost_total = Σ(worker_costs)  # Coût main-d'œuvre total
+
+# Métriques temporelles (2)
+self.duree_totale = Σ(duree_infras)       # Heures-homme totales
+self.duree_min_elapsed                    # Temps minimal parallélisé
+
+# Métriques de comptage (2)
+self.nb_infras_a_remplacer               # Nombre infrastructures
+self.liste_infras_a_remplacer            # Liste IDs infrastructures
+```
+
+### 3. Priorisation (plan_raccordement.py)
+```python
+# Score composite (4 composantes)
+alpha = 0.4    # Coefficient priorité
+beta = 0.3     # Coefficient difficulté  
+gamma = 0.2    # Coefficient coût
+delta = 0.1    # Coefficient durée
+
+# Métriques de normalisation (4)
+priorite_norm = priorite / max_priorite
+difficulte_norm = difficulte / max_difficulte
+cout_norm = cout_total / max_cout
+duree_norm = duree_totale / max_duree
+```
+
+### 4. Contraintes & Sécurité (3)
+```python
+generator_autonomy_h = 20.0               # Autonomie générateur
+safety_margin = 0.2                      # Marge sécurité
+autonomy_threshold = 16.0                 # Seuil critique
+```
+
+### 5. Phases (8 métriques par phase)
+```python
+# Métriques quantitatives
+"phase": int                             # Numéro phase
+"nb_batiments": int                      # Nombre bâtiments
+"nb_infras_reparees": int               # Nombre infrastructures
+"cout_total": float                      # Coût matériel (€)
+"duree_totale_heures_homme": float      # Heures-homme totales
+"duree_min_elapsed_h": float            # Temps minimal parallélisé
+"worker_cost_euros": float              # Coût main-d'œuvre (€)
+"warning": str                          # Alertes éventuelles
+```
+
+### 6. Validation (5 métriques)
+```python
+# Cohérence données
+reported_vs_actual                       # Cohérence comptages
+infrastructure_coverage                  # Taux couverture
+budget_allocation                        # Répartition budgétaire
+constraint_validation                    # Respect contraintes
+data_integrity                          # Intégrité référentielle
+```
+
+### 7. Constantes Métier (8)
+```python
+# Tarification
+PRIX_PAR_M = {"aerien": 500, "semi-aerien": 750, "fourreau": 900}
+DUREE_PAR_M = {"aerien": 2, "semi-aerien": 4, "fourreau": 5}
+
+# Contraintes opérationnelles
+WORKER_PAY_PER_8H = 300                  # Salaire journalier
+MAX_WORKERS_PER_INFRA = 4                # Ouvriers max/infrastructure
+
+# Répartition phases
+phase_targets = [0.40, 0.20, 0.20, 0.20] # Distribution budgétaire
+max_priorite = 4                         # Échelle priorité
+```
 # CONCLUSION
 
 ================================================================================
