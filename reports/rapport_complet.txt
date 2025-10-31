@@ -7,9 +7,7 @@ Date de génération: 2025-10-31 10:16:39
 RÉSUMÉ EXÉCUTIF
 --------------------------------------------------------------------------------
 Nombre total de bâtiments à raccorder: 85
-Population concernée (nb maisons): 1667
 Nombre de segments d'infrastructure: 197
-Total d'interventions sur infrastructures: 537
 Coût total estimé: 3,320,068.31 €
 Nombre de phases de travaux: 5
 
@@ -43,7 +41,6 @@ Phase 0:
 
 Phase 1:
   - Bâtiments raccordés: 51
-  - Infrastructures réparées: 209
   - Coût Total: 1,293,658.78 €
   - Main d'Œuvre: 223,300.31 €
   - Matériaux & Autres: 1,070,358.47 €
@@ -52,7 +49,6 @@ Phase 1:
 
 Phase 2:
   - Bâtiments raccordés: 15
-  - Infrastructures réparées: 100
   - Coût Total: 652,542.85 €
   - Main d'Œuvre: 115,621.31 €
   - Matériaux & Autres: 536,921.54 €
@@ -61,7 +57,6 @@ Phase 2:
 
 Phase 3:
   - Bâtiments raccordés: 11
-  - Infrastructures réparées: 132
   - Coût Total: 677,691.62 €
   - Main d'Œuvre: 120,256.15 €
   - Matériaux & Autres: 557,435.47 €
@@ -70,7 +65,6 @@ Phase 3:
 
 Phase 4:
   - Bâtiments raccordés: 7
-  - Infrastructures réparées: 93
   - Coût Total: 677,691.80 €
   - Main d'Œuvre: 98,865.73 €
   - Matériaux & Autres: 578,826.06 €
