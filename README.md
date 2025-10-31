@@ -46,13 +46,12 @@ Lightning Reconnection est un outil d'analyse et de planification qui aide les g
 - ✅ Calcul de métriques réseau (longueurs, capacités)
 
 ### Priorisation multi-critères
-- ✅ **Score population** : Nombre d'habitants impactés
 - ✅ **Score coût** : Optimisation budgétaire
 - ✅ **Score urgence** : Type de bâtiment (hôpital > école > résidentiel)
 - ✅ **Score distance** : Proximité des points de raccordement
 
 ### Visualisation
-- ✅ Graphiques interactifs (population, coûts, distances)
+- ✅ Graphiques interactifs (coûts, distances)
 - ✅ Export réseau en format GEXF (Gephi)
 - ✅ Rapports JSON détaillés
 - ✅ Tableaux CSV pour analyse Excel
