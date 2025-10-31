@@ -36,11 +36,32 @@
 └─────────────────────────────────────────────────────────────┘
 ```
 
+## 1.1 Vue d'ensemble
+
+**LIGHTNING RECONNECTION**
+|
+|--------------------------------------------------|
+|
+| **Data Layer** $\rightarrow$ **Core Engine** $\rightarrow$ **Outputs**
+|
+| [GeoJSON/CSV]    | [Analysis]        | [Reports]
+|     |                |                   |
+|     |--- batiment.shp  |--- Graph Builder  |--- JSON
+|     |--- infra.shp     |--- Prioritization |--- CSV
+|     |--- reseau\_en\_arnre.csv |--- Metrics Calc   |--- PNG
+|     |--- costs.csv       |--- Visualization  |
+|                                                |
+|                                                |--- GEXF
+|
+|--------------------------------------------------|
+
+---
+
 ### 1.2 Flux de données
 
 ```mermaid
 graph LR
-    A[Données GIS] --> B[Chargement]
+    A[Données QGIS] --> B[Chargement]
     C[Données CSV] --> B
     B --> D[Validation]
     D --> E[Construction Graphe]
