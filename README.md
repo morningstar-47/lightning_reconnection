@@ -69,8 +69,8 @@ Lightning Reconnection est un outil d'analyse et de planification qui aide les g
 
 
 ### Repporting
-- Analyse ([reports\rapport_analyse.txt](reports\rapport_analyse.txt))
-- Rapport ([reports\rapport_complet.txt](reports\rapport_complet.txt))
+- Analyse ([reports\rapport_analyse.txt](/reports/rapport_analyse.txt))
+- Rapport ([reports\rapport_complet.txt](/reports/rapport_complet.txt))
 
 ## 🚀 Installation
 
@@ -421,7 +421,7 @@ composite_score = (
 |-----|------|---------|
 | **OUAZAR Djamel** | Data Scientist | [GitHub](https://github.com/legb78) |
 | **Mopeno-Bia Emmanuel** | Data Scientist | [GitHub](https://github.com/morningstar-47) |
-| **HAMOUMA Amine** | Data Engenier | [GitHub](https://github.com/HamoumaAmine) |
+| **HAMOUMA Amine** | Data Engineer | [GitHub](https://github.com/HamoumaAmine) |
 | **ELMORTADA Hamza** | QGIS Specialist | [GitHub](https://github.com/weldhammadi) |
 
 ## 📄 Licence
