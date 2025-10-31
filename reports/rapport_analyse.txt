@@ -1,24 +1,24 @@
 # RAPPORT COMPLET - ANALYSE DU RACCORDEMENT ÉLECTRIQUE
 
 ================================================================================
-**Date de génération :** 2025-10-31 10:16:39
+Date de génération : 2025-10-31 10:16:39
 
 ## RÉSUMÉ EXÉCUTIF
 
 ---
 
-* **Nombre total de bâtiments à raccorder :** 85
-* **Population concernée (nb maisons) :** 1667
-* **Nombre de segments d’infrastructure :** 197
-* **Total d’interventions sur infrastructures :** 537
-* **Coût total estimé :** 3,320,068.31 €
-* **Nombre de phases de travaux :** 5
+* Nombre total de bâtiments à raccorder : 85
+* Population concernée (nb maisons) : 1667
+* Nombre de segments d’infrastructure : 197
+* Total d’interventions sur infrastructures : 537
+* Coût total estimé : 3,320,068.31 €
+* Nombre de phases de travaux : 5
 
 ## STRUCTURE DES COÛTS
 
 ---
 
-**Coût Total du Projet : 3,320,068.31 €**
+Coût Total du Projet : 3,320,068.31 €
 ├─ Main d’œuvre : 560,965.38 € (16.9%)
 └─ Matériaux & Autres : 2,759,102.93 € (83.1%)
 
@@ -92,56 +92,56 @@
 
 ### 1. Typologie des bâtiments
 
-Les données ne précisent pas **le type exact de chaque bâtiment** (maison individuelle, immeuble collectif, bâtiment administratif, etc.).
+Les données ne précisent pas le type exact de chaque bâtiment (maison individuelle, immeuble collectif, bâtiment administratif, etc.).
 
-> **Impact :** sans cette typologie, les estimations de puissance et de raccordement peuvent être biaisées, surtout pour les infrastructures collectives (ex. hôpital, école).
-> **Recommandation :** compléter le rapport avec une table de correspondance bâtiment ↔ type.
+> Impact : sans cette typologie, les estimations de puissance et de raccordement peuvent être biaisées, surtout pour les infrastructures collectives (ex. hôpital, école).
+> Recommandation : compléter le rapport avec une table de correspondance bâtiment ↔ type.
 
 ---
 
 ### 2. Vérification du nombre de maisons par bâtiment
 
-Le **nombre de maisons (1667)** semble élevé par rapport aux **85 bâtiments** déclarés.
+Le nombre de maisons (1667) semble élevé par rapport aux 85 bâtiments déclarés.
 
-> Cela représenterait environ **19,6 maisons par bâtiment**, ce qui mérite vérification : est-ce que certains bâtiments regroupent plusieurs ménages ou s’agit-il d’une erreur de comptage ?
-> **Action :** contrôler la cohérence entre le plan cadastral et les données terrain.
+> Cela représenterait environ 19,6 maisons par bâtiment, ce qui mérite vérification : est-ce que certains bâtiments regroupent plusieurs ménages ou s’agit-il d’une erreur de comptage ?
+> Action : contrôler la cohérence entre le plan cadastral et les données terrain.
 
 ---
 
 ### 3. Type de branchement
 
-Aucune information n’est fournie sur le **type de raccordement** :
+Aucune information n’est fournie sur le type de raccordement :
 
 * souterrain (câbles enterrés)
 * aérien (sur poteaux)
 
-> **Impact :** le coût, la durée de pose et la maintenance varient fortement selon le mode de branchement.
-> **Recommandation :** ajouter une colonne "Type de Branchement" pour chaque segment d’infrastructure.
+> Impact : le coût, la durée de pose et la maintenance varient fortement selon le mode de branchement.
+> Recommandation : ajouter une colonne "Type de Branchement" pour chaque segment d’infrastructure.
 
 ---
 
 ### 4. Coût de branchement par mètre
 
-Le rapport donne un coût total, mais pas de **détail par mètre linéaire**.
+Le rapport donne un coût total, mais pas de détail par mètre linéaire.
 
-> **Problème :** sans ce ratio, il est difficile de comparer avec les standards du secteur ou d’identifier les écarts de coût par zone.
-> **Action :** calculer le coût de branchement par mètre, ventilé selon la nature du terrain et le type de câble.
+> Problème : sans ce ratio, il est difficile de comparer avec les standards du secteur ou d’identifier les écarts de coût par zone.
+> Action : calculer le coût de branchement par mètre, ventilé selon la nature du terrain et le type de câble.
 
 ---
 
 ### 5. Durée de réparation par mètre
 
-La durée totale est fournie par phase, mais non **rapportée à la longueur d’infrastructure**.
+La durée totale est fournie par phase, mais non rapportée à la longueur d’infrastructure.
 
-> **Observation :** un indicateur « heures par mètre réparé » permettrait de mesurer la productivité réelle des équipes.
-> **Recommandation :** inclure cette donnée pour mieux calibrer les prévisions de maintenance future.
+> Observation : un indicateur « heures par mètre réparé » permettrait de mesurer la productivité réelle des équipes.
+> Recommandation : inclure cette donnée pour mieux calibrer les prévisions de maintenance future.
 
 ---
 
 # CONCLUSION
 
 ================================================================================
-Le projet présente une base solide, mais **le manque de granularité technique** dans certaines données (typologie, branchement, ratios métriques) limite la fiabilité des estimations et le pilotage budgétaire.
+Le projet présente une base solide, mais le manque de granularité technique dans certaines données (typologie, branchement, ratios métriques) limite la fiabilité des estimations et le pilotage budgétaire.
 
 Une mise à jour documentaire est donc indispensable avant la validation finale du plan de raccordement.
 
