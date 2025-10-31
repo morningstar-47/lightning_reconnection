@@ -63,6 +63,10 @@ Lightning Reconnection est un outil d'analyse et de planification qui aide les g
 - ✅ Recommandations d'intervention
 - ✅ Suivi des coûts cumulés
 
+### Documentation
+- Documentation Technique ([docs/documentation_technique.md](docs/documentation_technique.md))
+- Documentation Racordement ([docs/documentation_racordement.md](docs/documentation_racordement.md))
+
 ## 🚀 Installation
 
 ### Prérequis
