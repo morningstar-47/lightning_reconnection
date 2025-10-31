@@ -145,9 +145,46 @@ analyzer.generate_outputs(
 
 ### Options de configuration
 
+#### Tarifs et durées (dans `infra.py`)
+
+```python
+PRIX_PAR_M = {
+    'aérien': 50,
+    'semi-aérien': 75,
+    'fourreau': 100
+}
+
+DUREE_PAR_M = {
+    'aérien': 0.5,      # heures-homme par mètre
+    'semi-aérien': 0.75,
+    'fourreau': 1.0
+}
+
+WORKER_PAY_PER_8H = 300  # €/jour
+MAX_WORKERS_PER_INFRA = 4
+```
+
+#### Budget (dans `plan_raccordement.py`)
+```python
+BUDGET_TOTAL = 500000  # Budget total disponible
+PHASE_BUDGETS = [0.40, 0.20, 0.20, 0.20]  # Répartition phases 1-4
+generator_autonomy_h = 24  # Autonomie générateur (heures)
+safety_margin = 0.8  # Marge de sécurité (80%)
+```
+
+#### Priorités métiers
+```python
+PRIORITES = {
+    'hôpital': 10,
+    'école': 5,
+    'habitation': 1
+}
+```
+
 Créez un fichier `config.yaml` pour personnaliser les paramètres :
 
 ```yaml
+
 # Poids des critères de priorisation (total = 1.0)
 weights:
   population: 0.30
