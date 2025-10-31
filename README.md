@@ -76,3 +76,461 @@ Merci de compléter/valider les éléments ci-dessous pour fiabiliser la planifi
 | Mopeno-BIa Emmanuel | https://github.com/morningstar-47 |
 | HAMOUMA Amine | https://github.com/HamoumaAmine |
 | ELMORTADA Hamza | https://github.com/weldhammadi |
+
+
+# ⚡ Lightning Reconnection
+
+**Planification optimisée du rétablissement du raccordement électrique après intempéries**
+
+Système d'aide à la décision pour prioriser et planifier les interventions de raccordement électrique dans une petite ville, en maximisant l'impact social tout en maîtrisant les coûts et les contraintes opérationnelles.
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+## 📋 Table des matières
+
+- [Aperçu](#-aperçu)
+- [Fonctionnalités](#-fonctionnalités)
+- [Installation](#-installation)
+- [Utilisation](#-utilisation)
+- [Architecture](#-architecture)
+- [Méthodologie](#-méthodologie)
+- [Données d'entrée](#-données-dentrée)
+- [Résultats](#-résultats)
+- [Développement](#-développement)
+- [Contributeurs](#-contributeurs)
+- [Licence](#-licence)
+
+## 🎯 Aperçu
+
+Lightning Reconnection est un outil d'analyse et de planification qui aide les gestionnaires de réseau électrique à :
+
+- **Prioriser** les bâtiments à reconnecter selon des critères multiples
+- **Optimiser** les coûts et délais d'intervention
+- **Maximiser** l'impact social (nombre d'habitants reconnectés)
+- **Visualiser** le réseau et les zones critiques
+
+### Cas d'usage
+
+- Planification post-intempéries (tempêtes, inondations)
+- Maintenance programmée du réseau
+- Extension du réseau électrique
+- Simulation de scénarios de crise
+
+## ✨ Fonctionnalités
+
+### Analyse de réseau
+- ✅ Modélisation du réseau électrique en graphe
+- ✅ Détection des composantes connectées
+- ✅ Identification des nœuds critiques (centralité)
+- ✅ Calcul de métriques réseau (longueurs, capacités)
+
+### Priorisation multi-critères
+- ✅ **Score population** : Nombre d'habitants impactés
+- ✅ **Score coût** : Optimisation budgétaire
+- ✅ **Score urgence** : Type de bâtiment (hôpital > école > résidentiel)
+- ✅ **Score distance** : Proximité des points de raccordement
+
+### Visualisation
+- ✅ Graphiques interactifs (population, coûts, distances)
+- ✅ Export réseau en format GEXF (Gephi)
+- ✅ Rapports JSON détaillés
+- ✅ Tableaux CSV pour analyse Excel
+
+### Reporting
+- ✅ Rapport de priorisation avec métriques
+- ✅ Analyse statistique complète
+- ✅ Recommandations d'intervention
+- ✅ Suivi des coûts cumulés
+
+## 🚀 Installation
+
+### Prérequis
+
+- Python 3.8 ou supérieur
+- pip (gestionnaire de paquets Python)
+
+### Installation rapide
+
+```bash
+# Cloner le dépôt
+git clone https://github.com/votre-org/lightning-reconnection.git
+cd lightning-reconnection
+
+# Créer un environnement virtuel (recommandé)
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# ou
+venv\Scripts\activate  # Windows
+
+# Installer les dépendances
+pip install -r requirements.txt
+```
+
+### Dépendances principales
+
+```
+geopandas>=0.14.0
+networkx>=3.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+shapely>=2.0.0
+```
+
+## 📖 Utilisation
+
+### Exécution basique
+
+```bash
+python main.py
+```
+
+### Workflow complet
+
+```python
+from analyze_network import NetworkAnalyzer
+
+# 1. Initialiser l'analyseur
+analyzer = NetworkAnalyzer(
+    buildings_geojson='data/buildings.geojson',
+    network_geojson='data/network.geojson',
+    buildings_csv='data/buildings.csv',
+    costs_csv='data/costs.csv'
+)
+
+# 2. Charger et analyser les données
+analyzer.load_data()
+buildings_gdf, network_gdf, buildings_df, costs_df = analyzer.analyze_data()
+
+# 3. Construire le graphe réseau
+G = analyzer.build_network_graph(buildings_gdf, network_gdf)
+
+# 4. Calculer les priorités
+prioritized_buildings = analyzer.calculate_prioritization(
+    buildings_df, 
+    costs_df
+)
+
+# 5. Générer les rapports
+analyzer.generate_outputs(
+    buildings_gdf, 
+    network_gdf, 
+    buildings_df, 
+    costs_df, 
+    G, 
+    prioritized_buildings
+)
+```
+
+### Options de configuration
+
+Créez un fichier `config.yaml` pour personnaliser les paramètres :
+
+```yaml
+# Poids des critères de priorisation (total = 1.0)
+weights:
+  population: 0.30
+  cost: 0.25
+  urgency: 0.25
+  distance: 0.20
+
+# Scores d'urgence par type de bâtiment
+urgency_scores:
+  hospital: 1.0
+  school: 1.0
+  commercial: 0.55
+  residential: 0.75
+
+# Paramètres techniques (à compléter)
+costs:
+  underground_per_meter: 150  # EUR/m
+  aerial_per_meter: 80        # EUR/m
+  fixed_cost: 500             # EUR
+
+durations:
+  underground_per_meter: 0.5  # h/m
+  aerial_per_meter: 0.2       # h/m
+```
+
+## 🏗️ Architecture
+
+```
+lightning-reconnection/
+├── data/                          # Données d'entrée
+│   ├── buildings.geojson         # Géométries des bâtiments
+│   ├── network.geojson           # Géométries du réseau
+│   ├── buildings.csv             # Attributs des bâtiments
+│   └── costs.csv                 # Coûts de raccordement
+├── output/                        # Résultats générés
+│   ├── analysis_report.json      # Rapport d'analyse complet
+│   ├── prioritization_report.json # Rapport de priorisation
+│   ├── prioritized_buildings.csv # Liste priorisée
+│   ├── network_graph.gexf        # Graphe pour Gephi
+│   └── visualizations/           # Graphiques PNG
+├── src/                          # Code source
+│   ├── analyze_network.py        # Module principal
+│   ├── graph_builder.py          # Construction du graphe
+│   ├── prioritization.py         # Algorithme de priorisation
+│   └── visualization.py          # Génération de graphiques
+├── tests/                        # Tests unitaires
+├── docs/                         # Documentation détaillée
+├── main.py                       # Point d'entrée
+├── requirements.txt              # Dépendances Python
+├── config.yaml                   # Configuration (optionnel)
+├── README.md                     # Ce fichier
+└── LICENSE                       # Licence MIT
+```
+
+## 📊 Méthodologie
+
+### Algorithme de priorisation
+
+Le système calcule un **score composite** pour chaque bâtiment basé sur 4 critères :
+
+#### 1. Score Population (30%)
+```
+population_score = nombre_habitants / max_habitants
+```
+Favorise les bâtiments hébergeant le plus d'habitants.
+
+#### 2. Score Coût (25%)
+```
+cost_score = 1 - (coût_normalized)
+```
+Favorise les interventions les moins coûteuses (meilleur rapport coût/bénéfice).
+
+#### 3. Score Urgence (25%)
+```
+urgency_score = {
+  hospital: 1.0,
+  school: 1.0,
+  commercial: 0.55,
+  residential: 0.75
+}
+```
+Priorise les infrastructures critiques.
+
+#### 4. Score Distance (20%)
+```
+distance_score = 1 - (distance_normalized)
+```
+Favorise les raccordements proches des points d'accès.
+
+#### Score Composite Final
+```
+composite_score = 
+  0.30 × population_score +
+  0.25 × cost_score +
+  0.25 × urgency_score +
+  0.20 × distance_score
+```
+
+### Analyse de graphe
+
+- **Centralité de proximité** : Identifie les nœuds clés du réseau
+- **Composantes connexes** : Détecte les zones isolées
+- **Chemins critiques** : Calcule les itinéraires optimaux
+
+## 📥 Données d'entrée
+
+### Format attendu
+
+#### 1. `buildings.geojson`
+```json
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [lon, lat]
+    },
+    "properties": {
+      "building_id": 1,
+      "connected": false,
+      "priority": "high"
+    }
+  }]
+}
+```
+
+#### 2. `network.geojson`
+```json
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[lon1, lat1], [lon2, lat2]]
+    },
+    "properties": {
+      "segment_id": 1,
+      "status": "active",
+      "capacity": 500
+    }
+  }]
+}
+```
+
+#### 3. `buildings.csv`
+```csv
+building_id,inhabitants,building_type,connected,priority
+1,59,residential,false,medium
+2,71,residential,true,medium
+3,1,residential,false,medium
+```
+
+#### 4. `costs.csv`
+```csv
+building_id,cost,distance
+1,162.47,1.25
+2,256.94,3.14
+3,523.82,8.48
+```
+
+### Checklist qualité des données
+
+- [ ] Tous les `building_id` sont uniques
+- [ ] Pas de valeurs manquantes dans les colonnes critiques
+- [ ] Les coordonnées géographiques sont valides
+- [ ] Les types de bâtiments correspondent à la nomenclature
+- [ ] Les coûts et distances sont cohérents (> 0)
+- [ ] Le système de coordonnées (CRS) est spécifié
+
+## 📈 Résultats
+
+### Fichiers générés
+
+| Fichier | Description | Format |
+|---------|-------------|--------|
+| `analysis_report.json` | Statistiques complètes du réseau | JSON |
+| `prioritization_report.json` | Top 10 bâtiments prioritaires + stats | JSON |
+| `prioritized_buildings.csv` | Liste complète triée par priorité | CSV |
+| `network_graph.gexf` | Graphe pour visualisation Gephi | GEXF |
+| `summary.txt` | Résumé textuel | TXT |
+
+### Visualisations
+
+Le dossier `output/visualizations/` contient :
+
+- `population_distribution.png` : Répartition des habitants
+- `cost_analysis.png` : Analyse des coûts
+- `priority_distribution.png` : Distribution des priorités
+- `distance_cost_scatter.png` : Corrélation distance/coût
+- `cumulative_metrics.png` : Courbes cumulées
+
+### Interprétation des résultats
+
+#### Score composite élevé (> 0.7)
+→ **Priorité maximale** : Intervention immédiate recommandée
+
+#### Score composite moyen (0.4 - 0.7)
+→ **Priorité secondaire** : Planifier à court terme
+
+#### Score composite faible (< 0.4)
+→ **Priorité basse** : Planifier à moyen/long terme
+
+## 🛠️ Développement
+
+### Exécuter les tests
+
+```bash
+# Tests unitaires
+pytest tests/
+
+# Avec couverture
+pytest --cov=src tests/
+
+# Tests spécifiques
+pytest tests/test_prioritization.py -v
+```
+
+### Structure du code
+
+```python
+# Exemple d'extension - Nouveau critère de priorisation
+
+def calculate_accessibility_score(building, road_network):
+    """
+    Ajoute un score d'accessibilité basé sur le réseau routier.
+    
+    Args:
+        building: GeoDataFrame du bâtiment
+        road_network: GeoDataFrame du réseau routier
+        
+    Returns:
+        float: Score entre 0 et 1
+    """
+    nearest_road = road_network.distance(building.geometry).min()
+    return 1 - (nearest_road / road_network.distance(building.geometry).max())
+
+# Intégrer dans le calcul composite
+composite_score = (
+    0.25 × population_score +
+    0.20 × cost_score +
+    0.25 × urgency_score +
+    0.15 × distance_score +
+    0.15 × accessibility_score  # Nouveau critère
+)
+```
+
+### Contribuer
+
+1. Fork le projet
+2. Créer une branche feature (`git checkout -b feature/AmazingFeature`)
+3. Commit les changements (`git commit -m 'Add AmazingFeature'`)
+4. Push vers la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrir une Pull Request
+
+### Standards de code
+
+- **Style** : PEP 8
+- **Docstrings** : Google Style
+- **Type hints** : Obligatoire pour les fonctions publiques
+- **Tests** : Couverture minimale 80%
+
+## 👥 Contributeurs
+
+| Nom | Rôle | Contact |
+|-----|------|---------|
+| **OUAZAR Djamel** | Lead Developer | [GitHub](https://github.com/legb78) |
+| **Mopeno-Bia Emmanuel** | Data Scientist | [GitHub](https://github.com/morningstar-47) |
+| **HAMOUMA Amine** | GIS Specialist | [GitHub](https://github.com/HamoumaAmine) |
+| **ELMORTADA Hamza** | Backend Developer | [GitHub](https://github.com/weldhammadi) |
+
+## 📄 Licence
+
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+## 📞 Support
+
+- **Issues** : [GitHub Issues](https://github.com/votre-org/lightning-reconnection/issues)
+- **Email** : contact@lightning-reconnection.fr
+- **Documentation** : [Wiki](https://github.com/votre-org/lightning-reconnection/wiki)
+
+## 🗺️ Roadmap
+
+### Version 1.1 (Q2 2025)
+- [ ] Interface web interactive (Streamlit/Dash)
+- [ ] Export des plannings au format Gantt
+- [ ] Intégration API météo pour prévisions
+- [ ] Calcul automatique des durées d'intervention
+
+### Version 2.0 (Q4 2025)
+- [ ] Optimisation multi-objectifs (Pareto)
+- [ ] Simulation Monte Carlo pour analyse de risque
+- [ ] Module de routage pour équipes terrain
+- [ ] Dashboard temps réel
+
+## 🙏 Remerciements
+
+- [NetworkX](https://networkx.org/) pour la modélisation de graphes
+- [GeoPandas](https://geopandas.org/) pour l'analyse spatiale
+- [Matplotlib](https://matplotlib.org/) & [Seaborn](https://seaborn.pydata.org/) pour les visualisations
+- La communauté open-source Python
+
+---
+
+**⚡ Lightning Reconnection** - *Restoring power, connecting communities*
