@@ -167,15 +167,15 @@ analyzer.generate_outputs(
 
 ```python
 PRIX_PAR_M = {
-    "aerien": 500,
-    "semi-aerien": 750,
-    "fourreau": 900,
+    'aérien': 500,
+    'semi-aérien': 750,
+    'fourreau': 900
 }
 
 DUREE_PAR_M = {
-    "aerien": 2,
-    "semi-aerien": 4,
-    "fourreau": 5,
+    'aérien': 2,      # heures-homme par mètre
+    'semi-aérien': 4,
+    'fourreau': 5
 }
 
 WORKER_PAY_PER_8H = 300  # €/jour
@@ -184,50 +184,19 @@ MAX_WORKERS_PER_INFRA = 4
 
 #### Budget (dans `plan_raccordement.py`)
 ```python
-BUDGET_TOTAL = 500000  # Budget total disponible
+BUDGET_TOTAL = 500000  # Budget total disponible (Estimation)
 PHASE_BUDGETS = [0.40, 0.20, 0.20, 0.20]  # Répartition phases 1-4
-generator_autonomy_h = 24  # Autonomie générateur (heures)
+generator_autonomy_h = 20  # Autonomie générateur (heures)
 safety_margin = 0.8  # Marge de sécurité (80%)
 ```
 
 #### Priorités métiers
 ```python
-PRIORITE_TYPE_BAT = {
-    "hôpital": 1,
-    "hopital": 1,
-    "école": 2,
-    "ecole": 2,
-    "habitation": 3,
+PRIORITES = {
+    'hôpital': 1,
+    'école': 2,
+    'habitation': 3
 }
-```
-
-Créez un fichier `config.yaml` pour personnaliser les paramètres :
-
-```yaml
-
-# Poids des critères de priorisation (total = 1.0)
-weights:
-  population: 0.30
-  cost: 0.25
-  urgency: 0.25
-  distance: 0.20
-
-# Scores d'urgence par type de bâtiment
-urgency_scores:
-  hospital: 1.0
-  school: 1.0
-  commercial: 0.55
-  residential: 0.75
-
-# Paramètres techniques (à compléter)
-costs:
-  underground_per_meter: 150  # EUR/m
-  aerial_per_meter: 80        # EUR/m
-  fixed_cost: 500             # EUR
-
-durations:
-  underground_per_meter: 0.5  # h/m
-  aerial_per_meter: 0.2       # h/m
 ```
 
 ## 🏗️ Architecture
@@ -261,47 +230,6 @@ lightning-reconnection/
 
 ## 📊 Méthodologie
 
-### Algorithme de priorisation
-
-Le système calcule un **score composite** pour chaque bâtiment basé sur 4 critères :
-
-#### 1. Score Population (30%)
-```
-population_score = nombre_habitants / max_habitants
-```
-Favorise les bâtiments hébergeant le plus d'habitants.
-
-#### 2. Score Coût (25%)
-```
-cost_score = 1 - (coût_normalized)
-```
-Favorise les interventions les moins coûteuses (meilleur rapport coût/bénéfice).
-
-#### 3. Score Urgence (25%)
-```
-urgency_score = {
-  hospital: 1.0,
-  school: 1.0,
-  commercial: 0.55,
-  residential: 0.75
-}
-```
-Priorise les infrastructures critiques.
-
-#### 4. Score Distance (20%)
-```
-distance_score = 1 - (distance_normalized)
-```
-Favorise les raccordements proches des points d'accès.
-
-#### Score Composite Final
-```
-composite_score = 
-  0.30 × population_score +
-  0.25 × cost_score +
-  0.25 × urgency_score +
-  0.20 × distance_score
-```
 
 ### Analyse de graphe
 
