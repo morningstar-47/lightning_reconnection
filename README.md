@@ -69,8 +69,8 @@ Lightning Reconnection est un outil d'analyse et de planification qui aide les g
 
 
 ### Repporting
-- Analyse ([reports\rapport_analyse.txt](reports\rapport_analyse.txt))
-- Rapport ([reports\rapport_complet.txt](reports\rapport_complet.txt))
+- Analyse ([reports\rapport_analyse.txt](/reports/rapport_analyse.txt))
+- Rapport ([reports\rapport_complet.txt](/reports/rapport_complet.txt))
 
 ## 🚀 Installation
 
