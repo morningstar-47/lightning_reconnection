@@ -61,31 +61,6 @@ Cœur de la planification :
 #### `main.py`
 Orchestration : charge les données, planifie les phases, génère le CSV de sortie.
 
-## Utilisation
-
-### Prérequis
-```bash
-python 3.8+
-pandas
-```
-
-### Installation
-```bash
-# Créer et activer l'environnement virtuel
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# ou
-venv\Scripts\activate     # Windows
-
-# Installer les dépendances
-pip install pandas
-```
-
-### Exécution
-```bash
-python main.py
-```
-
 ### Entrée requise
 
 **Fichier** : `donnees_infrastructures_complet.csv`

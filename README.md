@@ -55,6 +55,7 @@ Lightning Reconnection est un outil d'analyse et de planification qui aide les g
 - ✅ Export réseau en format GEXF (Gephi)
 - ✅ Rapports JSON détaillés
 - ✅ Tableaux CSV pour analyse Excel
+- ✅ Ficher Shapfile pour analyse QGIS
 
 ### Reporting
 - ✅ Rapport de priorisation avec métriques

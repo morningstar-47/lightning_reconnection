@@ -2,7 +2,7 @@
 RAPPORT COMPLET - ANALYSE DU RACCORDEMENT ÉLECTRIQUE
 ================================================================================
 
-Date de génération: 2025-10-31 10:11:32
+Date de génération: 2025-10-31 10:16:39
 
 RÉSUMÉ EXÉCUTIF
 --------------------------------------------------------------------------------
@@ -13,49 +13,69 @@ Total d'interventions sur infrastructures: 537
 Coût total estimé: 3,320,068.31 €
 Nombre de phases de travaux: 5
 
+STRUCTURE DES COÛTS
+--------------------------------------------------------------------------------
+Coût Total du Projet: 3,320,068.31 €
+  ├─ Main d'œuvre: 560,965.38 € (16.9%)
+  └─ Matériaux & Autres: 2,759,102.93 € (83.1%)
+
+Calcul: Coût Total = Main d'Œuvre + Matériaux + Équipements + Autres
+        3,320,068.31 € = 560,965.38 € + 2,759,102.93 €
+
 RÉPARTITION PAR TYPE DE BÂTIMENT
 --------------------------------------------------------------------------------
   Habitation: 83 (97.6%)
   École: 1 (1.2%)
   Hôpital: 1 (1.2%)
 
+================================================================================
 ANALYSE PAR PHASE
 --------------------------------------------------------------------------------
 
 Phase 0:
   - Bâtiments raccordés: 1
   - Infrastructures réparées: 3
-  - Coût: 18,483.26 €
+  - Coût Total: 18,483.26 €
+  - Main d'Œuvre: 2,921.87 €
+  - Matériaux & Autres: 15,561.39 €
+  - Calcul: 18,483.26 = 2,921.87 + 15,561.39
   - Durée estimée: 9.35 heures
-  - Main d'œuvre: 2,921.87 €
 
 Phase 1:
   - Bâtiments raccordés: 51
   - Infrastructures réparées: 209
-  - Coût: 1,293,658.78 €
+  - Coût Total: 1,293,658.78 €
+  - Main d'Œuvre: 223,300.31 €
+  - Matériaux & Autres: 1,070,358.47 €
+  - Calcul: 1,293,658.78 = 223,300.31 + 1,070,358.47
   - Durée estimée: 38.17 heures
-  - Main d'œuvre: 223,300.31 €
 
 Phase 2:
   - Bâtiments raccordés: 15
   - Infrastructures réparées: 100
-  - Coût: 652,542.85 €
+  - Coût Total: 652,542.85 €
+  - Main d'Œuvre: 115,621.31 €
+  - Matériaux & Autres: 536,921.54 €
+  - Calcul: 652,542.85 = 115,621.31 + 536,921.54
   - Durée estimée: 38.17 heures
-  - Main d'œuvre: 115,621.31 €
 
 Phase 3:
   - Bâtiments raccordés: 11
   - Infrastructures réparées: 132
-  - Coût: 677,691.62 €
+  - Coût Total: 677,691.62 €
+  - Main d'Œuvre: 120,256.15 €
+  - Matériaux & Autres: 557,435.47 €
+  - Calcul: 677,691.62 = 120,256.15 + 557,435.47
   - Durée estimée: 38.17 heures
-  - Main d'œuvre: 120,256.15 €
 
 Phase 4:
   - Bâtiments raccordés: 7
   - Infrastructures réparées: 93
-  - Coût: 677,691.80 €
+  - Coût Total: 677,691.80 €
+  - Main d'Œuvre: 98,865.73 €
+  - Matériaux & Autres: 578,826.06 €
+  - Calcul: 677,691.80 = 98,865.73 + 578,826.06
   - Durée estimée: 43.26 heures
-  - Main d'œuvre: 98,865.73 €
 
 ================================================================================
 FIN DU RAPPORT
