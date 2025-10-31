@@ -317,12 +317,13 @@ composite_score =
 
 ```
 
-#### 3. `reseau_en_arbre.csv`
-```csv
-building_id,inhabitants,building_type,connected,priority
-1,59,residential,false,medium
-2,71,residential,true,medium
-3,1,residential,false,medium
+#### 3. `reseau_en_arbre.xlsx`
+```xlsx
+id_batiment	nb_maisons	infra_id	infra_type	longueur
+E000001	4	P007111	infra_intacte	12.3144613356693
+E000001	4	P007983	infra_intacte	40.3209288665353
+E000001	4	P000308	infra_intacte	39.1407985664577
+
 ```
 
 #### 4. `costs.csv`
