@@ -199,6 +199,7 @@ PRIORITES = {
 }
 ```
 
+
 ## 🏗️ Architecture
 
 ```
@@ -244,6 +245,12 @@ lightning-reconnection/
 <img src="assets/map-reconnector-02.jpg" width="200" alt="Map Reconnector 02">
 <img src="assets/map-reconnector-03.jpg" width="200" alt="Map Reconnector 03">
 <img src="assets/map-reconnector-04.jpg" width="200" alt="Map Reconnector 04">
+
+<img src="assets/map-reconnector-00.jpg" style="max-width: 100%; height: auto;" alt="Map Reconnector 00">
+<img src="assets/map-reconnector-01.jpg" style="max-width: 100%; height: auto;" alt="Map Reconnector 01">
+<img src="assets/map-reconnector-02.jpg" style="max-width: 100%; height: auto;" alt="Map Reconnector 02">
+<img src="assets/map-reconnector-03.jpg" style="max-width: 100%; height: auto;" alt="Map Reconnector 03">
+<img src="assets/map-reconnector-04.jpg" style="max-width: 100%; height: auto;" alt="Map Reconnector 04">
 
 
 ## 📥 Données d'entrée
