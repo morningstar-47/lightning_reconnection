@@ -237,6 +237,15 @@ lightning-reconnection/
 - **Composantes connexes** : Détecte les zones isolées
 - **Chemins critiques** : Calcule les itinéraires optimaux
 
+### Visualisations du réseau
+
+![Map Reconnector 00](assets/map-reconnector-00.jpg)
+![Map Reconnector 01](assets/map-reconnector-01.jpg)
+![Map Reconnector 02](assets/map-reconnector-02.jpg)
+![Map Reconnector 03](assets/map-reconnector-03.jpg)
+![Map Reconnector 04](assets/map-reconnector-04.jpg)
+
+
 ## 📥 Données d'entrée
 
 ### Format attendu
