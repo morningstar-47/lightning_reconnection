@@ -358,6 +358,37 @@ building_id,cost,distance
 
 ## 📈 Résultats
 
+
+**Fichier** : `BOMBOCLAAAT.csv` (configurable)
+
+### Colonnes du plan
+
+| Colonne | Description |
+|---------|-------------|
+| `phase` | Numéro de phase (0 = hôpital, 1-4 = phases budgétaires) |
+| `id_batiment` | Premier bâtiment du groupe (compatibilité) |
+| `id_batiments` | Liste de tous les bâtiments de la phase |
+| `nb_batiments` | Nombre de bâtiments traités |
+| `nb_infras_reparees` | Nombre d'infrastructures à réparer |
+| `cout_total` | Coût matériel total (€) |
+| `duree_totale_heures_homme` | Heures-homme nécessaires |
+| `duree_min_elapsed_h` | Durée réelle minimale (avec max d'ouvriers) |
+| `worker_cost_euros` | Coût salarial total (€) |
+| `liste_infras_reparees` | Liste des IDs d'infrastructures |
+| `warning` | Messages d'alerte (contraintes critiques) |
+
+### Exemple de ligne
+```csv
+0,E000085,['E000085'],1,3,18483.26,77.92,9.35,2921.87,"['P005500','P007447','P007990']",""
+```
+
+**Interprétation** :
+- Phase 0 (hôpital prioritaire)
+- Coût matériel : 18 483 €
+- 77,92 heures-homme nécessaires
+- Réalisable en 9,35 heures avec 4 ouvriers par infra
+- Coût salarial : 2 922 €
+
 ### Fichiers générés
 
 | Fichier | Description | Format |
